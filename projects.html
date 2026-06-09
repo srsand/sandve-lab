@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects – Sandve Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      margin-bottom: 12px;
+    }
+    .project-card {
+      border: 1px solid #c0d8ea;
+      border-radius: 6px;
+      padding: 18px 20px;
+      background: #fafcfe;
+    }
+    .project-card h3 {
+      font-size: 15px;
+      font-weight: bold;
+      color: #4d8eb7;
+      margin-bottom: 6px;
+    }
+    .project-card .project-meta {
+      font-size: 12px;
+      color: #888;
+      margin-bottom: 8px;
+      line-height: 1.6;
+    }
+    .project-card .project-meta strong { color: #555; }
+    .project-card p {
+      font-size: 13px;
+      color: #555;
+      line-height: 1.6;
+    }
+    .project-card a.read-more {
+      display: inline-block;
+      margin-top: 8px;
+      font-size: 12px;
+      color: #4d8eb7;
+    }
+    h2.subsection {
+      font-size: 15px;
+      font-weight: bold;
+      color: #555;
+      margin: 36px 0 16px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="site-title">
+    <h1>Sandve-lab</h1>
+    <p>Section for Genome Biology</p>
+    <p><a href="https://cigene.no/">Faculty of Biosciences</a></p>
+    <p><a href="https://cigene.no/">Norwegian University of Life Sciences</a></p>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="people.html">People</a></li>
+      <li>
+        <a href="publications.html">Publications</a>
+        <ul class="dropdown-menu">
+          <li><a href="publications.html#peer-reviewed">Peer-Reviewed</a></li>
+          <li><a href="publications.html#preprints">Preprints</a></li>
+        </ul>
+      </li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="news.html">News</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2 class="section-heading">Projects</h2>
+
+  <!-- ── Active projects ── -->
+  <h2 class="subsection">Active Projects</h2>
+  <div class="project-grid">
+
+    <div class="project-card">
+      <h3>ThreeD (2025–2028)</h3>
+      <div class="project-meta">
+        <strong>Role:</strong> Project lead<br>
+        <strong>Funder:</strong> Norwegian Research Council, FRIPRO programme
+      </div>
+      <p>The consequences of whole genome duplication in the evolution of three-dimensional genome organization.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>HubSmolt (2024–2027)</h3>
+      <div class="project-meta">
+        <strong>Role:</strong> WP lead<br>
+        <strong>Funder:</strong> Norwegian Research Council, Thematic Research Grant
+      </div>
+      <p>Understanding the genetic mechanisms underlying development of smolt physiology.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>HoloGen (2024–2027)</h3>
+      <div class="project-meta">
+        <strong>Role:</strong> Principle Investigator<br>
+        <strong>Funder:</strong> EU-MSCA Doctoral network
+      </div>
+      <p>Host-microbiome interactions. Our MSCA Doctoral Network training the next generation of holobiome scientists.</p>
+      <a class="read-more" href="https://www.hologen-network.eu/" target="_blank" rel="noopener">Read more &rarr;</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Elixir4 (2026–2028)</h3>
+      <div class="project-meta">
+        <strong>Role:</strong> Project partner<br>
+        <strong>Funder:</strong> Norwegian Research Council, National Research Infrastructure
+      </div>
+      <p>Infrastructure for biological information, supporting life science research and its translation to medicine, the environment, the bioindustries and society.</p>
+      <a class="read-more" href="https://elixir.no" target="_blank" rel="noopener">Read more &rarr;</a>
+    </div>
+
+    <div class="project-card">
+      <h3>MucoroNetworks (2026–)</h3>
+      <div class="project-meta">
+        <strong>Role:</strong> Co-PI<br>
+        <strong>Funder:</strong> Networking grant
+      </div>
+      <p>Networking grant with Anna Selmecki (University of Minnesota) to develop grant ideas related to Mucoromycota fungi genetics.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>BRIDGE (2026–2029)</h3>
+      <div class="project-meta">
+        <strong>Role:</strong> Project participant<br>
+        <strong>Funder:</strong> Norwegian University of Life Sciences
+      </div>
+      <p>Networking grant for research related to host-microbiome interactions.</p>
+    </div>
+
+  </div>
+
+  <!-- ── Previous projects ── -->
+  <h2 class="subsection">Previous Research Projects</h2>
+  <div class="project-grid">
+
+    <div class="project-card">
+      <h3>EBP (2021–2025)</h3>
+      <div class="project-meta">
+        <strong>Role:</strong> WP-lead<br>
+        <strong>Funder:</strong> Norwegian Research Council, Kompetanse og samarbeidsprosjekt
+      </div>
+      <p>Earth Biogenome Project Norway — sequencing all eukaryotic species in Norway.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Elixir3 (2022–2026)</h3>
+      <div class="project-meta">
+        <strong>Role:</strong> Project partner<br>
+        <strong>Funder:</strong> Norwegian Research Council, National Research Infrastructure
+      </div>
+      <p>Infrastructure for biological information, supporting life science research and its translation to medicine, the environment, the bioindustries and society.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>ImprovAFish (2020–2024)</h3>
+      <div class="project-meta">
+        <strong>Role:</strong> Project lead<br>
+        <strong>Funder:</strong> Norwegian Research Council, Thematic Research Call
+      </div>
+      <p>Improving aquaculture sustainability by modulating the feed-microbiome-host axis in Fish.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Synchrosmolt (2020–2022)</h3>
+      <div class="project-meta">
+        <strong>Role:</strong> Project lead<br>
+        <strong>Funder:</strong> Norwegian Seafood Research Fund
+      </div>
+      <p>Smolt production protocols and breeding strategies for synchronized smoltification.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Rewired (2018–2022)</h3>
+      <div class="project-meta">
+        <strong>Role:</strong> Project lead<br>
+        <strong>Funder:</strong> Norwegian Research Council, FRIPRO programme
+      </div>
+      <p>The role of whole genome duplication in vertebrate adaptation.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Transpose (2018–2022)</h3>
+      <div class="project-meta">
+        <strong>Role:</strong> WP-lead<br>
+        <strong>Funder:</strong> Norwegian Research Council, FRIPRO programme and NMBU
+      </div>
+      <p>Transposable elements as agents of genome evolution and adaptation following a recent whole genome duplication.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>GenoSysFat (2015–2019)</h3>
+      <div class="project-meta">
+        <strong>Role:</strong> Project lead<br>
+        <strong>Funder:</strong> Norwegian Research Council
+      </div>
+      <p>An integrated genomics and systems biology approach to improve the capacity of salmon to synthesize, transport and deposit EPA/DHA.</p>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <p>Sandve Lab &middot; Section for Genome Biology &middot; Norwegian University of Life Sciences (NMBU)</p>
+</footer>
+
+</body>
+</html>

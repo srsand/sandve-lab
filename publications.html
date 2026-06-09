@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications – Sandve Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="site-title">
+    <h1>Sandve-lab</h1>
+    <p>Section for Genome Biology</p>
+    <p><a href="https://cigene.no/">Faculty of Biosciences</a></p>
+    <p><a href="https://cigene.no/">Norwegian University of Life Sciences</a></p>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="people.html">People</a></li>
+      <li>
+        <a href="publications.html" class="active">Publications</a>
+        <ul class="dropdown-menu">
+          <li><a href="publications.html#peer-reviewed">Peer-Reviewed</a></li>
+          <li><a href="publications.html#preprints">Preprints</a></li>
+        </ul>
+      </li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="news.html">News</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2 class="section-heading">Publications</h2>
+
+  <div class="tab-bar">
+    <button class="tab-btn active" id="btn-peer"      onclick="switchTab('peer-reviewed')">Peer-Reviewed</button>
+    <button class="tab-btn"        id="btn-preprints" onclick="switchTab('preprints')">Preprints</button>
+  </div>
+
+  <!-- ── Peer-reviewed ── -->
+  <div class="tab-panel active" id="tab-peer-reviewed">
+    <p style="font-size:12px;color:#aaa;margin-bottom:16px;">
+      Loaded live from <a href="https://app.cristin.no/persons/show.jsf?id=317809" target="_blank" rel="noopener">Cristin</a>.
+    </p>
+    <div id="cristin-loading" class="loading">Loading publications from Cristin…</div>
+    <div id="cristin-error"   style="display:none;color:#c00;font-size:14px;padding:16px 0;"></div>
+    <div id="cristin-pubs"></div>
+  </div>
+
+  <!-- ── Preprints ── -->
+  <div class="tab-panel" id="tab-preprints">
+    <p style="font-size:13px;color:#888;margin-bottom:20px;">
+      Managed via <a href="/admin/">Content Manager</a>. To add a preprint go to
+      <strong>Admin → Preprints</strong>.
+    </p>
+    <div id="preprint-list"><div class="loading">Loading…</div></div>
+  </div>
+</main>
+
+<footer>
+  <p>Sandve Lab &middot; Section for Genome Biology &middot; Norwegian University of Life Sciences (NMBU)</p>
+</footer>
+
+<script>
+// ── Tab switching ──
+function switchTab(tab) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + tab).classList.add('active');
+  document.getElementById(tab === 'peer-reviewed' ? 'btn-peer' : 'btn-preprints').classList.add('active');
+  history.replaceState(null, '', '#' + tab);
+}
+if (location.hash === '#preprints') switchTab('preprints');
+
+// ── Preprints ──
+fetch('/_data/preprints.json')
+  .then(r => r.json())
+  .then(data => {
+    const container = document.getElementById('preprint-list');
+    container.innerHTML = '';
+    if (!data.items || data.items.length === 0) {
+      container.innerHTML = '<p style="color:#999;font-size:14px;">No preprints added yet.</p>';
+      return;
+    }
+    data.items.forEach(p => {
+      const div = document.createElement('div');
+      div.className = 'pub-entry';
+      div.innerHTML = `
+        <div class="pub-title">${p.title}</div>
+        <div class="pub-authors">${p.authors}</div>
+        <div class="pub-journal">${p.server}${p.year ? ' (' + p.year + ')' : ''}</div>
+        ${p.description ? `<div style="font-size:13px;color:#666;margin-top:4px;">${p.description}</div>` : ''}
+        <div class="pub-links">
+          ${p.url ? `<a href="${p.url}" target="_blank" rel="noopener">Preprint</a>` : ''}
+          ${p.doi ? `<a href="https://doi.org/${p.doi}" target="_blank" rel="noopener">DOI</a>` : ''}
+        </div>`;
+      container.appendChild(div);
+    });
+  });
+
+// ── Cristin API ──
+const CRISTIN_ID  = '317809';
+const SUPPORTED   = new Set(['ARTICLE','REVIEW','SHORT_COMMUNICATION','CHAPTER','REPORT']);
+
+async function fetchCristinPage(page) {
+  const url = `https://api.cristin.no/v2/results?contributor=${CRISTIN_ID}&fields=all&per_page=50&page=${page}`;
+  const res  = await fetch(url);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.json();
+}
+
+function formatAuthors(preview) {
+  if (!preview || preview.length === 0) return '';
+  const names = preview.map(c =>
+    (c.surname || '') + (c.first_name ? ' ' + c.first_name.charAt(0) + '.' : '')
+  );
+  return names.length > 6 ? names.slice(0, 6).join(', ') + ' et al.' : names.join(', ');
+}
+
+function renderCristinPubs(results) {
+  const container = document.getElementById('cristin-pubs');
+  const byYear = {};
+  results.forEach(r => {
+    const y = r.year_published || 'Unknown';
+    (byYear[y] = byYear[y] || []).push(r);
+  });
+
+  Object.keys(byYear).sort((a, b) => b - a).forEach(year => {
+    const h = document.createElement('div');
+    h.className = 'pub-year-heading';
+    h.textContent = year;
+    container.appendChild(h);
+
+    byYear[year].forEach(r => {
+      const title   = r.title?.en || Object.values(r.title || {})[0] || 'No title';
+      const authors = formatAuthors(r.contributors?.preview);
+      const journal = r.journal?.name || r.channel?.title || r.series?.name || '';
+      const doi     = (r.links || []).find(l => l.url_type === 'DOI')?.url || '';
+      const cristin = `https://app.cristin.no/results/show.jsf?id=${r.cristin_result_id}`;
+
+      const div = document.createElement('div');
+      div.className = 'pub-entry';
+      div.innerHTML = `
+        <div class="pub-title">${title}</div>
+        <div class="pub-authors">${authors}</div>
+        ${journal ? `<div class="pub-journal">${journal}${r.volume ? ` ${r.volume}` : ''}${r.issue ? `(${r.issue})` : ''}</div>` : ''}
+        <div class="pub-links">
+          ${doi ? `<a href="${doi}" target="_blank" rel="noopener">DOI</a>` : ''}
+          <a href="${cristin}" target="_blank" rel="noopener">Cristin</a>
+        </div>`;
+      container.appendChild(div);
+    });
+  });
+}
+
+async function loadCristinPubs() {
+  try {
+    let all = [], page = 1;
+    while (true) {
+      const batch = await fetchCristinPage(page);
+      if (!batch || batch.length === 0) break;
+      all = all.concat(batch.filter(r => SUPPORTED.has(r.category?.code)));
+      if (batch.length < 50) break;
+      page++;
+    }
+    document.getElementById('cristin-loading').style.display = 'none';
+    if (all.length === 0) {
+      document.getElementById('cristin-pubs').innerHTML =
+        '<p style="color:#999;font-size:14px;">No publications found.</p>';
+    } else {
+      renderCristinPubs(all);
+    }
+  } catch (err) {
+    document.getElementById('cristin-loading').style.display = 'none';
+    const el = document.getElementById('cristin-error');
+    el.style.display = 'block';
+    el.innerHTML = `Could not load from Cristin. <a href="https://app.cristin.no/persons/show.jsf?id=${CRISTIN_ID}" target="_blank">View on Cristin directly</a>. <small>(${err.message})</small>`;
+  }
+}
+
+loadCristinPubs();
+</script>
+
+</body>
+</html>

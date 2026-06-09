@@ -1,0 +1,315 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 15px;
+  color: #333;
+  background: #fff;
+}
+
+a { color: #4d8eb7; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── Header ── */
+header {
+  background: linear-gradient(180deg, #000 0%, #4d8eb7 100%);
+  padding: 24px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.site-title { color: #fff; }
+.site-title h1 { font-size: 22px; font-weight: bold; margin-bottom: 4px; }
+.site-title p  { font-size: 11px; color: #eee; line-height: 1.6; }
+.site-title a  { color: #fff; }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 3px;
+  transition: background .15s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background: rgba(255,255,255,.18);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ── Main layout ── */
+main {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 32px 24px 60px;
+}
+
+/* ── Tagline box ── */
+.tagline {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  color: #4d8eb7;
+  text-align: center;
+  line-height: 1.4;
+  margin-bottom: 24px;
+}
+
+.project-box {
+  background: #e7f5fd;
+  border: 1px solid #c5dff0;
+  border-radius: 8px;
+  padding: 18px 24px;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.project-box p {
+  color: #777;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.project-box .label {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+/* ── Section heading ── */
+h2.section-heading {
+  font-size: 17px;
+  font-weight: bold;
+  color: #4d8eb7;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ── News items ── */
+.news-list { list-style: none; }
+
+.news-item {
+  border-left: 3px solid #4d8eb7;
+  padding: 10px 16px;
+  margin-bottom: 18px;
+  background: #fafafa;
+  border-radius: 0 4px 4px 0;
+}
+
+.news-item .news-date {
+  font-size: 12px;
+  font-weight: bold;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  margin-bottom: 5px;
+}
+
+.news-item p { line-height: 1.6; font-size: 14px; }
+.news-item ul { margin-left: 20px; margin-top: 6px; }
+.news-item ul li { line-height: 1.6; font-size: 14px; margin-bottom: 4px; }
+
+.news-year {
+  font-size: 15px;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+  margin: 32px 0 16px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+/* ── "See all news" link ── */
+.more-link {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 14px;
+  color: #4d8eb7;
+}
+
+/* ── People grid ── */
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.person-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 16px;
+  text-align: center;
+}
+
+.person-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.person-card h3 { font-size: 14px; font-weight: bold; margin-bottom: 4px; }
+.person-card p  { font-size: 12px; color: #777; }
+
+/* ── Publications list ── */
+.pub-list { list-style: none; }
+.pub-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* ── Projects ── */
+.project-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-card h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4d8eb7;
+  margin-bottom: 8px;
+}
+
+.project-card p { line-height: 1.6; font-size: 14px; }
+
+/* ── Footer ── */
+footer {
+  border-top: 1px solid #ccc;
+  padding: 20px 40px;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+
+/* ── Dropdown nav ── */
+nav ul li { position: relative; }
+
+nav ul li .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #2a6a96;
+  min-width: 160px;
+  border-radius: 0 4px 4px 4px;
+  z-index: 100;
+  padding: 4px 0;
+}
+
+nav ul li:hover .dropdown-menu { display: block; }
+
+.dropdown-menu li a {
+  display: block;
+  padding: 8px 16px;
+  white-space: nowrap;
+  border-radius: 0 !important;
+}
+
+.dropdown-menu li a:hover { background: rgba(255,255,255,.15); }
+
+/* ── Tabs ── */
+.tab-bar {
+  display: flex;
+  gap: 4px;
+  border-bottom: 2px solid #4d8eb7;
+  margin-bottom: 24px;
+}
+
+.tab-btn {
+  padding: 8px 20px;
+  background: none;
+  border: 1px solid #c0d8ea;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  font-size: 14px;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  cursor: pointer;
+  color: #555;
+  transition: background .15s;
+}
+
+.tab-btn.active {
+  background: #4d8eb7;
+  color: #fff;
+  border-color: #4d8eb7;
+  font-weight: bold;
+}
+
+.tab-btn:hover:not(.active) { background: #e7f5fd; }
+
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* ── Loading spinner ── */
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #888;
+  font-size: 14px;
+}
+
+/* ── Publication entry ── */
+.pub-entry {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.pub-entry .pub-title { font-weight: bold; margin-bottom: 3px; }
+.pub-entry .pub-authors { color: #555; margin-bottom: 3px; font-size: 13px; }
+.pub-entry .pub-journal { font-style: italic; color: #777; font-size: 13px; }
+.pub-entry .pub-links { margin-top: 5px; }
+.pub-entry .pub-links a {
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 12px;
+  background: #e7f5fd;
+  padding: 2px 8px;
+  border-radius: 3px;
+  color: #4d8eb7;
+}
+.pub-entry .pub-links a:hover { background: #4d8eb7; color: #fff; text-decoration: none; }
+
+.pub-year-heading {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4d8eb7;
+  margin: 28px 0 8px;
+  border-bottom: 1px solid #c0d8ea;
+  padding-bottom: 4px;
+}
+
+/* ── People grid ── */
+.members-section h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4d8eb7;
+  margin: 28px 0 16px;
+  border-bottom: 1px solid #c0d8ea;
+  padding-bottom: 6px;
+}
+
+/* ── Mobile ── */
+@media (max-width: 650px) {
+  header { flex-direction: column; align-items: flex-start; }
+  nav ul { gap: 4px; }
+  main { padding: 20px 16px 40px; }
+}

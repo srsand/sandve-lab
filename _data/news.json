@@ -1,0 +1,196 @@
+{
+  "items": [
+    {
+      "date": "April 2026",
+      "content": "Helle Tessand Baalsrud and I got funded a networking grant with [*Anna Selmecki*](http://www.selmeckilab.com/) (University of Minnesota) to develop grant ideas related to Mucoromycota (fungi) genetics! I really look forward to this collaboration."
+    },
+    {
+      "date": "March 2026",
+      "content": "- Final version of our **cloudberry genome** paper is now out in Journal of Heredity. Read about the fascinating octoploid genome evolution while dreaming of future cloudberry picking expeditions. *[Read the full paper here.](#)*\n      **Congratulations Celian Diblasi with a great PhD-defence** (16/03). It was fun co-supervising you and best of luck as a postdoc in Lund! Thanks also to Marie Saitou (main supervisor) and the opponents Camille Berthelot and Tuomas Hämälä for creating a great day for Celian."
+    },
+    {
+      "date": "February 2026",
+      "content": "New paper out in Bioinformatics Advances: OmniCorr: An R-package for visualizing putative host-microbiome interactions using multi-omics data. The work was led by the group of Torgeir Hvidsten at KBM/NMBU. *[Read the paper here](http://academic.oup.com/bioinformaticsadvances/advance-article/doi/10.1093/bioadv/vbag057/8488725)*."
+    },
+    {
+      "date": "January 2026",
+      "content": "- Happy new year!\n      Christiaan Henkel will be joining the lab to work on single cell methods to understand Atlantic salmon smolt development."
+    },
+    {
+      "date": "December 2025",
+      "content": "A few more pre-prints posted during the last part of 2025:\n\n    \n  - We contributed to the sequencing of the octoploid cloudberry. The study was led by the Jakobsen-lab at UiO. *[Read the paper here.](https://www.biorxiv.org/content/10.1101/2025.07.07.663483v2)*\n      \n- A PhD in our section (Celian Diblasi) demonstrating shared trans-regulatory connections after 100 million years of evolution following genome duplication. The study was led by Marie Saitou. *[Read the paper here.](https://www.biorxiv.org/content/10.64898/2025.12.15.694296v1)*\n      In a large consortium paper we analyse regulatory evolution after genome duplication in salmonids using >700 omics datasets through development and across tissues. The study was led by Dan Macqueen and Sigbjørn Lien. *[Read the paper here.](https://www.biorxiv.org/content/10.64898/2025.12.18.695160v2.article-info)*"
+    },
+    {
+      "date": "November 2025",
+      "content": "Four new papers with contributions from the lab:\n\n    \n  - A paper on highly variable Mucoromycota fungi genomes led by postdoc Helle Tessand Baalsrud — published in G3. *[Read the paper here](https://academic.oup.com/g3journal/advance-article/doi/10.1093/g3journal/jkaf207/8248745)*.\n      \n- Dat Nguyen (previous PhD) published one of his chapters in NAR Genomics and Bioinformatics — using neural networks to predict impact of genetic variants on chromatin accessibility and gene expression in Atlantic salmon. *[Read the paper here.](https://academic.oup.com/nargab/article/7/4/lqaf139/8313454)*\n      \n- Alex West at UiT published a study on how gene regulatory changes in the saccus vasculosus encode photoperiodic history. *[Read the paper here.](https://link.springer.com/article/10.1007/s00359-025-01779-w)*\n      Domniki Manousi (PhD-student supervised by Marie Saitou) published on the evolution of the Gig gene family in fishes. *[Read the paper here.](https://pubmed.ncbi.nlm.nih.gov/41177277/)*"
+    },
+    {
+      "date": "October 2025",
+      "content": "- Really exciting pre-print out about a major trans-eQTL locus which determines cell population changes in gills of Atlantic salmon during development of seawater readiness. Collaboration with the Hazlerigg group at UiT. *[Read the pre-print here](https://www.biorxiv.org/content/10.1101/2025.10.16.682803v1).*\n      Cathrine Brekke got funded a Peder Sather grant to develop collaborations with Berkeley."
+    },
+    {
+      "date": "September 2025",
+      "content": "- A new publication on effects of Gamma-radiation on plants led by Payel and Jorun E. Olsen at IPV/NMBU. *[Read the paper here.](https://link.springer.com/article/10.1007/s00425-025-04819-6)*\n      \n- Great to see Domniki Manousi (**Saitou-lab**) defend her PhD-thesis on \"Genomic Basis of Pathogen Response and Immune Gene Evolution in Atlantic Salmon\". My contribution was only a small co-supervisory role, but it was fun!\n      \n- Congratulations to Adrian Lysaker for defending his master thesis on fungal genome evolution with flying colours!\n      \n- Excited to have Cathrine Brekke starting as a post-doc on our ThreeD project!\n      \n- **New paper** on heritability of smolt development phenotypes in Frontiers in Animal Genetics. *[Read the paper here](https://www.frontiersin.org/journals/animal-science/articles/10.3389/fanim.2025.1615804/abstract)*.\n      We also contributed to a newly published paper on radiosensitivity in Norway spruce. *[Read the paper here](https://www.sciencedirect.com/science/article/pii/S2667064X25002787)*."
+    },
+    {
+      "date": "July 2025",
+      "content": "**Two new papers accepted!**\n\n    \n  - A paper on fungal genomics led by Helle Tessand Baalsrud accepted in G3. *[Read the paper here](https://academic.oup.com/g3journal/advance-article/doi/10.1093/g3journal/jkaf207/8248745)*.\n      A study of genome 3D organization evolution in vertebrates accepted in *[BMC Biology](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-025-02362-0)*. Led by Jonas Paulsen and his group at UiO."
+    },
+    {
+      "date": "June 2025",
+      "content": "**Congratulations to Ingrid Sand Borgersen for a great master-thesis defence!** Ingrid did her master at the Hovig-lab at Oslo University Hospital. Very interesting new insights into microsatellite instability in ovarian cancers. *[Read the thesis here](/onewebmedia/filer/_%20Master%20Thesis%20Ingrid%20S%20Borgersen%20spring%202025-1.pdf)*."
+    },
+    {
+      "date": "May 2025",
+      "content": "- It was great seeing **Dat Thanh Nguyen defend his thesis** \"Improved computational methods for regulatory genomic inference\" with flying colours. Lars Grønvold in the group was the main supervisor.\n      \n- Our MSCA Doctoral Network **[Hologen](https://www.hologen-network.eu/)** has had its first training event in Copenhagen, hosted by Antton Alberdi Estibaritz at the Centre for Evolutionary Hologenomics.\n      **Congratulations to Vilde A. Engdal** for defending her thesis on Atlantic salmon heart morphology and its associations to smolt production strategies at the Veterinary faculty at NMBU."
+    },
+    {
+      "date": "April 2025",
+      "content": "We welcome **Emmanuel Odah** as one of three new PhD students in our Hologen MSCA Doctoral Network. Emmanuel is supervised by Gareth Difford and myself."
+    },
+    {
+      "date": "March 2025",
+      "content": "We submitted a cool project application on cod genetics — **fingers crossed.** The project is related to intestinal morphology and fish welfare. Application was led by Trond Kortner at the Veterinary faculty at NMBU."
+    },
+    {
+      "date": "February 2025",
+      "content": "- **Super excited to get our first paper on fungal genomics out on Biorxiv!** This is the first work from my collaboration with the very talented **Helle T. Baalsrud**. Why does some fungi produce lots more fat when we starve them for calcium? *[Read the preprint here](https://www.biorxiv.org/content/10.1101/2025.02.20.639118v1)*.\n      **First paper accepted and published in 2025!** My previous PhD student Øystein Monsen and Lars Grønvold led this exciting project on the role of **transposable elements** in shaping genome regulatory evolution after whole genome duplication. Out in Genome Research. *[Read it here.](https://pubmed.ncbi.nlm.nih.gov/39939177/)*"
+    },
+    {
+      "date": "November 2024",
+      "content": "- **Happy to have been part of two newly published papers:**\n        \n          \n- A study led by Matilde M. Holen on the effect of dietary chitin on Atlantic salmon chitinase activity, gene expression, and microbial composition. *[Read the paper here](https://www.sciencedirect.com/science/article/pii/S2468550X24001473)*.\n          \n- Another study led by Shiferaw Jenberie on transcriptionally distinct B cell profiles in systemic immune tissues and the peritoneal cavity of Atlantic salmon. *[Read the paper here.](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2024.1504836/abstract)*\n      \n- We **just submitted a proposal to NFR** for a research school on fish health and welfare. Thanks to Ian Mayer and Marit Stormoen for leading this. Fingers crossed!"
+    },
+    {
+      "date": "October 2024",
+      "content": "- Another salmon microbiome paper from the press led by Shashank Gupta. We show zero impact on the microbiome of salmon using low levels of beta-manna in the feed. *[Read the paper](https://rdcu.be/dX74E)* in Communication Biology.\n      \n- **Congratulations to everyone involved in Elixir-Norway** ([elixir.no](https://elixir.no)). We were awarded a new Norwegian national infrastructure project to keep up our good work on bioinformatics infrastructure.\n      \n- **Woop-woop! New paper in Nature Microbiology.** The paper led by Arturo Vera-Ponce de León is the first large scale characterisation of the genomes of the Atlantic salmon gut microbiota. *[Read the paper here](https://www.nature.com/articles/s41564-024-01830-7)*.\n      \n- **Two new PhD opportunities linked to the lab!**  Torgeir Hvidsten and myself are seeking a PhD-student within comparative evolutionary genomics for our ThreeD NRC FRIPRO project. More details *[here.](https://www.jobbnorge.no/ledige-stillinger/stilling/268673)*\n          \n- We also have a MSCA doctoral network PhD-position on host-microbiome interactions in salmon. More details *[here](https://www.jobbnorge.no/en/available-jobs/job/268714/phd-scholarship-within-holobiomics-of-resource-efficiency-in-atlantic-salmon)*."
+    },
+    {
+      "date": "September 2024",
+      "content": "- NMBU have launched a new website — 'lakseløftet' — where we have gathered all information related to our efforts to increase sustainability of the salmon aquaculture industry. *[Check it out here.](https://www.nmbu.no/forskning/lakseloftet)*\n      \n- We submitted a grant proposal together with the Veterinary faculty to fund SalSafe — a centre for research driven innovation. Thanks to Marit Stormoen, Gareth Difford, Ida Beitnes Johansen for pulling this together.\n      Our Doctoral Network on microbiome-host interactions **HoloGen** has kicked off! Follow us on social media (X: @HoloGen_MSCA, Bluesky: @hologen.bsky.social, [LinkedIn](http://www.linkedin.com/company/hologen-network)) or read more at [hologen-network.eu](https://www.hologen-network.eu/)."
+    },
+    {
+      "date": "August 2024",
+      "content": "**A new preprint is out:** Transcriptomic profiling of gill biopsies to define predictive markers for seawater survival in farmed Atlantic salmon. We produced 3000 gill transcriptomes and tried to predict future growth and welfare status. *[Read how this endeavour went here](https://www.biorxiv.org/content/10.1101/2024.08.20.608748v1)*."
+    },
+    {
+      "date": "June 2024",
+      "content": "- **Fantastic news!** We got a four year 1M EUR project funded from the Norwegian Research Council on the 3D genome evolution following whole genome duplication in Atlantic salmon. Great colleagues: Jonas Paulsen (UiO), Torgeir Hvidsten/Chris Henkel/Matthew Kent/Lars Grønvold/Hien Thu (NMBU), and Juan Tena (CABD, Sevilla, Spain).\n      \n- Our very talented master student **Eline Furseth defended her thesis today (June 4th)** on the 3D genome architecture of the Atlantic salmon genome. Fantastic job, Eline!!\n      **New preprint!** Shashank Gupta put together a nice paper: *[The need for high-resolution gut microbiome characterization to design efficient strategies for sustainable aquaculture production.](https://www.biorxiv.org/content/10.1101/2024.02.29.582783v1.full)*"
+    },
+    {
+      "date": "May 2024",
+      "content": "We have a **new preprint** out from the Synchrosmolt project about how different light regimes during development of seawater adapted salmon (smoltification) impacts salmon physiology and growth in the sea. Led by Bjarne Gjerde at NOFIMA. *[Read the paper here.](http://www.biorxiv.org/content/10.1101/2024.04.02.587721v1)*"
+    },
+    {
+      "date": "April 2024",
+      "content": "Our work on the remodelling of the liver genome regulation through Atlantic salmon smolt development has now been **published in PLoS ONE.** We show that photoperiodic history does not have a long term impact on the livers of developing smolt and identify many novel transcription factors. *[Read the paper here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0302388)*."
+    },
+    {
+      "date": "March 2024",
+      "content": "I gave a talk for the EvoGene-section at UiO on our work on TEs and evolution of cis-regulatory elements. Thanks to Rein Aasland, Paul Grini and Jonas Paulsen for inviting me!"
+    },
+    {
+      "date": "February 2024",
+      "content": "**[We have a new peer-reviewed paper out in Aquaculture](https://doi.org/10.1016/j.aquaculture.2024.740678)** — thanks to Tom Harvey and Hanne Dvergedal for leading this study! Linking genomic prediction of fillet fat content in Atlantic salmon to underlying changes in lipid metabolism regulation."
+    },
+    {
+      "date": "January 2024",
+      "content": "- **Action packed January!** Happy to have contributed to a really fascinating study of maternally programmed seasonal plasticity in Siberian hamsters led by the superb Shona Woods (The Arctic University of Norway). The paper is out in Current Biology. *[Read it here.](https://authors.elsevier.com/sd/article/S0960-9822(23)01742-6)*\n      \n- New pre-print on the Atlantic salmon gut microbial genome atlas. *[Read it here.](https://www.biorxiv.org/content/10.1101/2023.12.10.570985v1)*\n      New pre-print on \"The role of transposon activity in shaping cis-regulatory element evolution after whole genome duplication\". Led by Øystein Monsen and Lars Grønvold. *[Read it here](https://biorxiv.org/cgi/content/short/2024.01.02.573861v1)*."
+    },
+    {
+      "date": "November 2023",
+      "content": "- Ida Beitnes Johansen and myself published an opinion piece in DN on production of smolts and animal welfare. *[Read it here (only in Norwegian)](https://www.dn.no/innlegg/oppdrett/fiskehelse/miljo/laksen-er-garantert-norges-mest-biologisk-forvirrede-husdyr/2-1-1558790)*.\n      **We have a new lab-member.** Welcome Cathrine Brekke! Cathrine will be working on the genetics of gut microbial composition."
+    },
+    {
+      "date": "August 2023",
+      "content": "- Another preprint is out on **bioRxiv** about genetic mechanisms underlying differences in fat content in salmon muscle. *[Read the paper here](https://www.biorxiv.org/content/10.1101/2023.08.29.555338v1)*.\n      \n- Congratulations to **Line L. Røsæg** who defended her PhD-thesis in style on the molecular processes involved in developmental transitions in Atlantic salmon. We are so proud of you!\n      New preprint: *[The genome regulatory landscape of Atlantic salmon liver through smoltification](https://www.biorxiv.org/content/10.1101/2023.08.16.553484v1)*. Great work by Tom Harvey, Gareth Gillard, Line Røsæg and several others!"
+    },
+    {
+      "date": "June 2023",
+      "content": "YES! We were **awarded 1M EUR from the Norwegian Research Council** to study a genetic variant in Atlantic salmon that impacts the development of sea-water physiology (smoltification) in a photoperiod dependent manner. Project lead is David Hazlerigg at UiT and the [Arctic Seasonal Timekeeping Initiative](https://uit.no/research/asti)."
+    },
+    {
+      "date": "May 2023",
+      "content": "Congratulations to all the fantastic master students associated with the lab on submitting their MSc thesis! So many cool projects, ranging from smolt biology, machine learning methods to predict cis regulatory elements, fungal genomics, population genetics in ash trees, and development of CRISPR editing methods. If you are interested, you can find links to the theses *[here](/people.html)*."
+    },
+    {
+      "date": "March 2023",
+      "content": "We have two more papers accepted in G3:\n\n    \n  - **Thomas Harvey** led a really nice study to optimize transfection of RNPs and plasmids in primary hepatocytes in Atlantic salmon (*[read it here](https://academic.oup.com/g3journal/advance-article/doi/10.1093/g3journal/jkad039/7036367)*).\n      **Matilde M. Holen** led a study of the evolution and functional diversification of chitinase metabolism genes in Atlantic salmon following a whole genome duplication (*[read it here](https://academic.oup.com/g3journal/advance-article/doi/10.1093/g3journal/jkad069/7087203)*)."
+    },
+    {
+      "date": "February 2023",
+      "content": "Our paper on regulatory activity of transposable elements in Atlantic salmon is out in G3 *[(read it here)](https://academic.oup.com/g3journal/advance-article/doi/10.1093/g3journal/jkad034/7031732)*."
+    },
+    {
+      "date": "December 2022",
+      "content": "We congratulate Dr. Øystein Monsen with a very successful PhD-defence on the role of repeat-DNA in genome evolution."
+    },
+    {
+      "date": "October 2022",
+      "content": "- **Another new pre-print is out!** [The lab's first attempt to study the contribution of TEs to gene regulatory evolution after whole genome duplication.](https://www.biorxiv.org/content/10.1101/2022.11.02.514921v2)\n      New pre-print: [Optimized protocols for transfection of DNA-vectors and CRISPR RNPs into Atlantic salmon liver primary cells.](https://www.biorxiv.org/content/10.1101/2022.10.20.513028v1) Thanks to Ragnhild Wilberg, Alex Datsomor, and Tom Harvey."
+    },
+    {
+      "date": "August 2022",
+      "content": "Happy to have contributed to [this new paper with a nice overview of the genes and pathways involved in fatty acid metabolism](https://trebuchet.public.springernature.app/get_content/964d941e-e9e9-43a3-816d-89dae7808c91) in Atlantic salmon."
+    },
+    {
+      "date": "June 2022",
+      "content": "- We have made some contributions to ***[a new paper on characterization of 121 full length alleles](https://onlinelibrary.wiley.com/doi/10.1002/pro.4369)*** of the enigmatic *Vitellogenin* protein in bees. Paper was led by Vilde Leipart and Gro Amdam.\n      \n- Final published version of the first metabolic model of Atlantic salmon ***[is out in PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article/authors?id=10.1371/journal.pcbi.1010194)***. Great work by Jon Olav Vik and his team!\n      [*New preprint out*](https://www.biorxiv.org/content/10.1101/2022.05.05.490722v1) led by Matilde M. Holen revealing interactions between chitin in the feed, microbial communities and endogenous chitin metabolism in Atlantic salmon."
+    },
+    {
+      "date": "May 2022",
+      "content": "A ***[new pre-print out](https://www.biorxiv.org/content/10.1101/2022.05.05.490710v1)*** on evolution of chitin metabolism associated genes in fish (mostly salmon). Great work by Matilde Mengkrog Holen!"
+    },
+    {
+      "date": "April 2022",
+      "content": "- Ohh...I got promotion to **full professor :-)**\n      Great to finally have an in-person project meeting for the **Improvafish** team! Lots of interesting results about the **feed-microbiome interaction** in the salmon gut."
+    },
+    {
+      "date": "March 2022",
+      "content": "[**Helle Tessland Baalsrud**](https://scholar.google.no/citations?user=g2JHRHUAAAAJ&hl=en) joined the lab as a postdoc on the EBP-Nor project. Welcome!"
+    },
+    {
+      "date": "January 2022",
+      "content": "We have started our efforts to help sequence all of Norway's eukaryotic species together with all the partners in the *[EBP-Nor project](https://www.mn.uio.no/cees/english/research/groups/ebp-nor/)*."
+    },
+    {
+      "date": "November 2021",
+      "content": "- The former master student in our group, **Johanna Wagnerberger won the NMBU-award for the best master thesis 2020.** [Read the news story here](https://www.nmbu.no/aktuelt/node/44163).\n      Our paper on rediploidization following WGD across 100 million years is out in MBE. Led by Manu Gundappa and Dan Macqueen at Roslin Institute. *[Read the paper here.](https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msab310/6413642)*"
+    },
+    {
+      "date": "August 2021",
+      "content": "- Exciting to get this first paper on the **curious genomes of sucker fish** published. Led by Trevor Krabbenhoft group at University of Buffalo. *[Read the paper here.](https://academic.oup.com/gbe/advance-article/doi/10.1093/gbe/evab190/6349175)*\n      New preprint out on **metabolic modelling of Atlantic salmon.** Project is led by Jon Olav Vik at NMBU. *[Read the paper here.](https://www.biorxiv.org/content/10.1101/2021.06.03.446971v1.abstract)*"
+    },
+    {
+      "date": "June 2021",
+      "content": "- Excited to be part of a huge 3M EUR grant funded by NRC to help sequence and assemble all eukaryote genomes. Project is led by Kjetill Jakobsen at UiO.\n      \n- Yeah! Our two fantastic master students **Dom and Hanna** defended their thesis projects with style. **Congratulations** to you both!\n      Happy to share our new pre-print about 100 million years of rediploidization dynamics following WGD in a salmonid ancestor. Study led by Manu Gundappa at the Roslin Institute. *[Read the paper here.](https://www.biorxiv.org/content/10.1101/2021.06.05.447185v1)*"
+    },
+    {
+      "date": "May 2021",
+      "content": "A new paper out in Frontiers in Immunology led by Alex West at the [UiT ASTI centre](https://www.frontiersin.org/articles/10.3389/fimmu.2021.669889/full). Single nuclei transcriptome view of the smoltifying gill in Atlantic salmon."
+    },
+    {
+      "date": "April 2021",
+      "content": "I'm proud of our new paper in Genome Biology. In collaboration with Rori Rholfs and Torgeir Hvidsten we use a comparative phylogenetic model to ask: **how does selection shape genome regulatory evolution following whole genome duplication?** Great computational biology work by Gareth and Lars! *[Read the paper here](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02323-0)*."
+    },
+    {
+      "date": "March 2021",
+      "content": "- **Congratulations and thanks Yang Jin** for including me on **this new paper** using lipidomics to understand physiological remodelling during life stage transition in Salmon. *[Read it here](https://pubs.acs.org/doi/abs/10.1021/acs.jafc.0c07281)*.\n      \n- Happy to see our [new paper in G3](https://academic.oup.com/g3journal/advance-article/doi/10.1093/g3journal/jkab072/6169000) on 'print'. In this paper led by Dave Hazlerigg at UiT we show how photoperiodic history affects how young salmon respond to changes in water salinity. *[Read it here](https://academic.oup.com/g3journal/advance-article/doi/10.1093/g3journal/jkab072/6169000)*.\n      We wrote a pop-sci outreach piece on salmon and smoltification in Aftenposten Viten (in Norwegian). [*Read it here.*](#)"
+    },
+    {
+      "date": "January 2021",
+      "content": "- Our talented PhD student Marius has gotten his [first paper accepted](https://www.sciencedirect.com/science/article/pii/S2001037021000428) (based on his master project). A very nice start on the new collaboration with Phil Pope and Torgeir Hvidsten on host-microbiome interactions.\n      **What a great start to the new year!** Johanna defended her master thesis on CRISPR based knock out characterization of abcg2 gene involved in salmon flesh coloration."
+    },
+    {
+      "date": "December 2020",
+      "content": "**Ragnhild Wilberg defended her master thesis** today (10th December)! She did a fantastic job. **Congrats!**"
+    },
+    {
+      "date": "November 2020",
+      "content": "- [**Finally out!** An interesting collaboration between animal breeders, microbiologists and a genome guy (me). We found no/little/weak effects of salmon genetics on gut microbiota composition but did find *significant associations between salmon metabolism phenotypes and the gut microbiome*. **Now out in Microbiome!**](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-020-00938-2)\n      A fun collaboration between quantitative geneticists and omics people reveals genetic architecture of salmon metabolism! **[Published in GSE](https://gsejournal.biomedcentral.com/articles/10.1186/s12711-020-00587-x)**."
+    },
+    {
+      "date": "October 2020",
+      "content": "Happy to have been part of this exciting [**new paper in PLOS Genetics**](https://journals.plos.org/plosgenetics/article/comments?id=10.1371/journal.pgen.1009097), led by Shona Wood and Alex West at UiT. *What happens to the circadian clock genes after a genome duplication?*"
+    }
+  ]
+}

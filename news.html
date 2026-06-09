@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News – Sandve Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="site-title">
+    <h1>Sandve-lab</h1>
+    <p>Section for Genome Biology</p>
+    <p><a href="https://cigene.no/">Faculty of Biosciences</a></p>
+    <p><a href="https://cigene.no/">Norwegian University of Life Sciences</a></p>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="people.html">People</a></li>
+      <li>
+        <a href="publications.html">Publications</a>
+        <ul class="dropdown-menu">
+          <li><a href="publications.html#peer-reviewed">Peer-Reviewed</a></li>
+          <li><a href="publications.html#preprints">Preprints</a></li>
+        </ul>
+      </li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="news.html" class="active">News</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2 class="section-heading">Lab Updates</h2>
+  <ul class="news-list" id="all-news">
+    <li class="loading">Loading updates…</li>
+  </ul>
+</main>
+
+<footer>
+  <p>Sandve Lab &middot; Section for Genome Biology &middot; Norwegian University of Life Sciences (NMBU)</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+fetch('/_data/news.json')
+  .then(r => r.json())
+  .then(data => {
+    const list = document.getElementById('all-news');
+    list.innerHTML = '';
+    let currentYear = null;
+    data.items.forEach(item => {
+      const year = item.date.split(' ').pop();
+      if (year !== currentYear) {
+        currentYear = year;
+        const li = document.createElement('li');
+        li.className = 'news-year';
+        li.textContent = year;
+        list.appendChild(li);
+      }
+      const li = document.createElement('li');
+      li.className = 'news-item';
+      li.innerHTML = `<div class="news-date">${item.date}</div>${marked.parse(item.content)}`;
+      list.appendChild(li);
+    });
+  })
+  .catch(() => {
+    document.getElementById('all-news').innerHTML =
+      '<li style="color:#999;font-size:14px;padding:8px 0;">Could not load updates.</li>';
+  });
+</script>
+
+</body>
+</html>

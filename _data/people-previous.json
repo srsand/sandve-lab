@@ -1,0 +1,155 @@
+{
+  "members": [
+    {
+      "name": "Adrian Blomquist Lysaker",
+      "role": "MSc student",
+      "year": "2025",
+      "tags": "Fungi, genomics, genome evolution"
+    },
+    {
+      "name": "Ingrid Sand Borgersen",
+      "role": "External MSc student at OUS in the Hovig-group",
+      "year": "2025",
+      "tags": "Cancer, ovaries, MSI"
+    },
+    {
+      "name": "Eline Furseth",
+      "role": "MSc student",
+      "year": "2024",
+      "tags": "Atlantic salmon, 3D genome architecture, evolution"
+    },
+    {
+      "name": "Line L. Røsæg",
+      "role": "PhD student",
+      "year": "2023",
+      "tags": "Atlantic salmon, smoltification, omics"
+    },
+    {
+      "name": "Sofie Robertsen",
+      "role": "MSc student",
+      "year": "2023",
+      "tags": "Atlantic salmon, machine learning, gill transcriptome"
+    },
+    {
+      "name": "Ida Emilie Larsen",
+      "role": "MSc student",
+      "year": "2023",
+      "tags": "Fungal genomics, carotenoid metabolism"
+    },
+    {
+      "name": "Veronica Aarvik Bøe",
+      "role": "MSc student, co-supervisor",
+      "year": "2023",
+      "tags": "Fungal genomics, lipid metabolism"
+    },
+    {
+      "name": "Marie Iversen",
+      "role": "MSc student, co-supervision",
+      "year": "2023",
+      "tags": "CRISPR, Lxr, Atlantic salmon"
+    },
+    {
+      "name": "Julie W. Førrisdal",
+      "role": "MSc student, co-supervision",
+      "year": "2023",
+      "tags": "Machine learning, cis regulatory elements"
+    },
+    {
+      "name": "Harini Jeyakumar",
+      "role": "MSc student, co-supervision",
+      "year": "2023",
+      "tags": "Machine learning, cis regulatory elements"
+    },
+    {
+      "name": "Sigrid F. Skjelbostad",
+      "role": "External MSc student, Haapaniemi-group NCMM UiO",
+      "year": "2023",
+      "tags": "CRISPR"
+    },
+    {
+      "name": "Øystein Monsen",
+      "role": "PhD student",
+      "year": "2022",
+      "tags": "Repetitive DNA, Atlantic salmon"
+    },
+    {
+      "name": "Shawline Ema",
+      "role": "MSc student",
+      "year": "2022",
+      "tags": "elovl5, gene regulation, Atlantic salmon"
+    },
+    {
+      "name": "Marte Skog",
+      "role": "MSc student",
+      "year": "2022",
+      "tags": "β-mannan, gene regulation, Atlantic salmon"
+    },
+    {
+      "name": "Ronja M. Sandholm",
+      "role": "MSc student",
+      "year": "2022",
+      "tags": "Alternative splicing, whole genome duplication"
+    },
+    {
+      "name": "Alex Datsomor",
+      "role": "Postdoc in molecular biology",
+      "year": "2021",
+      "tags": ""
+    },
+    {
+      "name": "Domniki Manousi",
+      "role": "MSc student",
+      "year": "2021",
+      "tags": "Genotype imputation, Atlantic salmon"
+    },
+    {
+      "name": "Hanna Sahlström",
+      "role": "MSc student",
+      "year": "2021",
+      "tags": "Transposable elements, cis regulatory elements"
+    },
+    {
+      "name": "Charlotte Solum Krog",
+      "role": "External MSc at Oslo University Hospital",
+      "year": "2020",
+      "tags": ""
+    },
+    {
+      "name": "Johanna H. Wagnerberger",
+      "role": "MSc student",
+      "year": "2020",
+      "tags": "CRISPR, functional characterization, abcg2b gene"
+    },
+    {
+      "name": "Ragnhild Wilberg",
+      "role": "MSc student",
+      "year": "2020",
+      "tags": "Transfection, primary hepatocytes, Atlantic salmon"
+    },
+    {
+      "name": "Naqing",
+      "role": "MSc student",
+      "year": "2020",
+      "tags": "ChIP-seq, promoters, enhancers, liver, Atlantic salmon"
+    },
+    {
+      "name": "Thomas Harvey",
+      "role": "PhD student",
+      "year": "2019",
+      "tags": "Liver, smolt, gene regulation, Atlantic salmon"
+    },
+    {
+      "name": "Emilie Rui",
+      "role": "MSc student",
+      "year": "2018",
+      "tags": ""
+    },
+    {
+      "name": "Melanie Van den Bosch",
+      "role": "ERASMUS internship",
+      "year": "2017",
+      "tags": ""
+    }
+  ],
+  "cosupervised": "Emmanuel Odah (2025–), Ellen Chappel (2025–), Felix Hernandez Nohr (2023–), Celian Diblasi (2026), Domniki Manousi (2025), Dat Thanh Nguyen (2025), Vilde A. Engdal (2025), Kristina Stenløkk (2023), Matilde M. Holen (2022), Yang Jin (2019), Srinidi Varadharajan (2019), Gareth Gillard (2019), Lars Grønvold (2017), Marian Schubert (2016)."
+}
