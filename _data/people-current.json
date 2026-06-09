@@ -3,79 +3,55 @@
     {
       "name": "Simen Rød Sandve",
       "role": "Professor",
-      "photo": "/images/people/simen.jpg",
+      "photo": "images/people/simen.jpg",
       "url": ""
     },
     {
       "name": "Thu-Hien To",
       "role": "Researcher",
-      "photo": "/images/people/thu-hien.jpg",
+      "photo": "images/people/thu-hien.jpg",
       "url": "https://www.nmbu.no/ans/thu-hien.to"
     },
     {
       "name": "Lars Grønvold",
       "role": "Researcher",
-      "photo": "/images/people/lars.jpg",
+      "photo": "images/people/lars.jpg",
       "url": ""
     },
     {
       "name": "Gareth Gillard",
       "role": "Researcher",
-      "photo": "/images/people/gareth.jpg",
+      "photo": "images/people/gareth.jpg",
       "url": ""
     },
     {
       "name": "Helle Tessand Baalsrud",
       "role": "Postdoc",
-      "photo": "/images/people/helle.jpg",
+      "photo": "images/people/helle.jpg",
       "url": ""
     },
     {
       "name": "Cathrine Brekke",
       "role": "Researcher",
-      "photo": "/images/people/cathrine.png",
+      "photo": "images/people/cathrine.png",
       "url": ""
     },
     {
       "name": "Christiaan Henkel",
       "role": "Researcher",
-      "photo": "/images/people/christiaan.png",
+      "photo": "images/people/christiaan.png",
       "url": ""
     },
     {
       "name": "Marius Strand",
       "role": "PhD student",
-      "photo": "/images/people/marius.jpg",
-      "url": ""
-    },
-    {
-      "name": "Elise Røttereng",
-      "role": "PhD student",
-      "photo": "/images/people/elise.jpg",
-      "url": ""
-    },
-    {
-      "name": "Noah C. R. Hagaseth",
-      "role": "MSc student",
-      "photo": "/images/people/noah.jpg",
+      "photo": "images/people/marius.jpg",
       "url": ""
     },
     {
       "name": "Iselin X. T. Lam",
       "role": "MSc student",
-      "photo": "/images/people/iselin.jpg",
-      "url": ""
-    },
-    {
-      "name": "Emma S. Tofasrud",
-      "role": "MSc student",
-      "photo": "/images/people/emma.jpg",
-      "url": ""
-    },
-    {
-      "name": "Vilde G. Bagstevold",
-      "role": "MSc student",
-      "photo": "/images/people/vilde.jpg",
+      "photo": "images/people/iselin.jpg",
       "url": ""
     }
   ]
