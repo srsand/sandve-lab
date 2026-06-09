@@ -1,9 +1,6 @@
 backend:
-  name: github
-  repo: srsand/sandve-lab
+  name: git-gateway
   branch: main
-  auth_type: pkce
-  app_id: Ov23linU62SNFKHCGI0j
 
 media_folder: images/uploaded
 public_folder: /images/uploaded
