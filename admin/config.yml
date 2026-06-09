@@ -1,6 +1,3 @@
-# Decap CMS configuration
-# Docs: https://decapcms.org/docs/
-
 backend:
   name: github
   repo: srsand/sandve-lab
@@ -8,16 +5,11 @@ backend:
   auth_type: pkce
   app_id: Ov23linU62SNFKHCGI0j
 
-# Where uploaded images are stored in the repo
 media_folder: images/uploaded
 public_folder: /images/uploaded
 
-# ──────────────────────────────────────────────
-# COLLECTIONS
-# ──────────────────────────────────────────────
 collections:
 
-  # ── News ──────────────────────────────────
   - name: "news"
     label: "News / Lab Updates"
     files:
@@ -29,20 +21,15 @@ collections:
             name: "items"
             widget: "list"
             summary: "{{fields.date}}"
-            add_to_top: true
             fields:
               - label: "Date"
                 name: "date"
                 widget: "string"
-                hint: "e.g. April 2026  or  March–April 2026"
+                hint: "e.g. June 2026"
               - label: "Content"
                 name: "content"
                 widget: "markdown"
-                hint: "Use bullet points (- item) for lists. Links: [text](url). Bold: **text**"
-                buttons: [bold, italic, link, bulleted-list]
-                editor_components: []
 
-  # ── Preprints ─────────────────────────────
   - name: "preprints"
     label: "Preprints"
     files:
@@ -54,7 +41,6 @@ collections:
             name: "items"
             widget: "list"
             summary: "{{fields.title}} ({{fields.year}})"
-            add_to_top: true
             fields:
               - label: "Title"
                 name: "title"
@@ -62,11 +48,10 @@ collections:
               - label: "Authors"
                 name: "authors"
                 widget: "string"
-                hint: "e.g. Sandve SR, Baalsrud HT, et al."
               - label: "Server"
                 name: "server"
                 widget: "select"
-                options: ["bioRxiv", "medRxiv", "arXiv", "EarthArXiv", "Other"]
+                options: ["bioRxiv", "medRxiv", "arXiv", "Other"]
                 default: "bioRxiv"
               - label: "Year"
                 name: "year"
@@ -78,15 +63,13 @@ collections:
                 name: "doi"
                 widget: "string"
                 required: false
-                hint: "Just the DOI suffix, e.g. 10.1101/2025.02.20.639118"
               - label: "Short description"
                 name: "description"
                 widget: "text"
                 required: false
 
-  # ── Current people ─────────────────────────
   - name: "people_current"
-    label: "People – Current Members"
+    label: "People - Current Members"
     files:
       - label: "Current Members"
         name: "current_members"
@@ -95,7 +78,7 @@ collections:
           - label: "Members"
             name: "members"
             widget: "list"
-            summary: "{{fields.name}} – {{fields.role}}"
+            summary: "{{fields.name}} - {{fields.role}}"
             fields:
               - label: "Full name"
                 name: "name"
@@ -116,17 +99,15 @@ collections:
                 name: "photo"
                 widget: "image"
                 required: false
-                hint: "Upload a portrait photo. Will be stored in /images/uploaded/"
                 media_folder: /images/people
                 public_folder: /images/people
-              - label: "Personal/NMBU website URL"
+              - label: "Website URL"
                 name: "url"
                 widget: "string"
                 required: false
 
-  # ── Previous people ────────────────────────
   - name: "people_previous"
-    label: "People – Previous Members"
+    label: "People - Previous Members"
     files:
       - label: "Previous Members"
         name: "previous_members"
@@ -140,20 +121,16 @@ collections:
               - label: "Full name"
                 name: "name"
                 widget: "string"
-              - label: "Role / position"
+              - label: "Role"
                 name: "role"
                 widget: "string"
-                hint: "e.g. MSc student  or  PhD student  or  Postdoc in molecular biology"
               - label: "Year"
                 name: "year"
                 widget: "string"
-                hint: "Year of completion, e.g. 2024  or  2020–2022"
-              - label: "Research topics / tags"
+              - label: "Tags"
                 name: "tags"
                 widget: "string"
                 required: false
-                hint: "Comma-separated, e.g. Atlantic salmon, smoltification, omics"
           - label: "Co-supervised PhD students"
             name: "cosupervised"
             widget: "text"
-            hint: "Free-text list, e.g. Name (year– ), Name (year)"
