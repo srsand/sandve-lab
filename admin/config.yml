@@ -6,7 +6,7 @@ backend:
   repo: srsand/sandve-lab
   branch: main
   auth_type: pkce
-  app_id: YOUR_GITHUB_OAUTH_APP_CLIENT_ID   # ← CHANGE after creating OAuth app
+  app_id: Ov23linU62SNFKHCGI0j
 
 # Where uploaded images are stored in the repo
 media_folder: images/uploaded
