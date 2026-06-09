@@ -78,7 +78,7 @@ function switchTab(tab) {
 if (location.hash === '#preprints') switchTab('preprints');
 
 // ── Preprints ──
-fetch('/_data/preprints.json')
+fetch('_data/preprints.json')
   .then(r => r.json())
   .then(data => {
     const container = document.getElementById('preprint-list');

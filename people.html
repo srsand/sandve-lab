@@ -90,7 +90,7 @@
 
 <script>
 // ── Current members ──
-fetch('/_data/people-current.json')
+fetch('_data/people-current.json')
   .then(r => r.json())
   .then(data => {
     const grid = document.getElementById('current-grid');
@@ -115,7 +115,7 @@ fetch('/_data/people-current.json')
   });
 
 // ── Previous members ──
-fetch('/_data/people-previous.json')
+fetch('_data/people-previous.json')
   .then(r => r.json())
   .then(data => {
     const container = document.getElementById('previous-members');

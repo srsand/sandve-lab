@@ -3,7 +3,7 @@
 
 backend:
   name: github
-  repo: srsand/srsand.github.io   # ← CHANGE to your GitHub username/repo
+  repo: srsand/sandve-lab
   branch: main
   auth_type: pkce
   app_id: YOUR_GITHUB_OAUTH_APP_CLIENT_ID   # ← CHANGE after creating OAuth app
