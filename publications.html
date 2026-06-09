@@ -37,6 +37,26 @@
 <main>
   <h2 class="section-heading">Publications</h2>
 
+  <div class="pub-stats-bar" id="pub-stats-bar">
+    <div class="pub-stat">
+      <span class="stat-number" id="stat-peer-count">…</span>
+      <span class="stat-label">Peer-reviewed papers</span>
+    </div>
+    <div class="pub-stat">
+      <span class="stat-number" id="stat-citations">…</span>
+      <span class="stat-label">Total citations</span>
+    </div>
+    <div class="pub-stat">
+      <span class="stat-number" id="stat-hindex">…</span>
+      <span class="stat-label">H-index</span>
+    </div>
+    <a href="https://scholar.google.com/citations?user=QtceKEwAAAAJ"
+       target="_blank" rel="noopener"
+       class="pub-stat pub-stat-link">
+      Google Scholar ↗
+    </a>
+  </div>
+
   <div class="tab-bar">
     <button class="tab-btn active" id="btn-peer"      onclick="switchTab('peer-reviewed')">Peer-Reviewed</button>
     <button class="tab-btn"        id="btn-preprints" onclick="switchTab('preprints')">Preprints</button>
@@ -169,6 +189,7 @@ async function loadCristinPubs() {
       page++;
     }
     document.getElementById('cristin-loading').style.display = 'none';
+    document.getElementById('stat-peer-count').textContent = all.length || '–';
     if (all.length === 0) {
       document.getElementById('cristin-pubs').innerHTML =
         '<p style="color:#999;font-size:14px;">No publications found.</p>';
@@ -184,6 +205,19 @@ async function loadCristinPubs() {
 }
 
 loadCristinPubs();
+
+// ── Scholar stats ──
+fetch('_data/scholar_stats.json')
+  .then(r => r.json())
+  .then(s => {
+    const fmt = n => (n > 0 ? n.toLocaleString() : '–');
+    document.getElementById('stat-citations').textContent = fmt(s.citations);
+    document.getElementById('stat-hindex').textContent    = fmt(s.h_index);
+  })
+  .catch(() => {
+    document.getElementById('stat-citations').textContent = '–';
+    document.getElementById('stat-hindex').textContent    = '–';
+  });
 </script>
 
 </body>

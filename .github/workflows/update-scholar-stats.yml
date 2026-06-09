@@ -1,0 +1,58 @@
+name: Update Scholar Stats
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'   # Every Monday at 06:00 UTC
+  workflow_dispatch:        # Allow manual trigger from GitHub Actions tab
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install scholarly
+        run: pip install scholarly
+
+      - name: Fetch Scholar stats
+        run: |
+          python - <<'EOF'
+          import json, sys
+          from datetime import datetime, timezone
+          from scholarly import scholarly
+
+          SCHOLAR_ID = 'QtceKEwAAAAJ'
+          OUT = '_data/scholar_stats.json'
+
+          try:
+              author = scholarly.search_author_id(SCHOLAR_ID)
+              author = scholarly.fill(author, sections=['basics', 'indices', 'counts'])
+              stats = {
+                  'citations': author.get('citedby', 0),
+                  'h_index':   author.get('hindex', 0),
+                  'last_updated': datetime.now(timezone.utc).strftime('%Y-%m-%d')
+              }
+              with open(OUT, 'w') as f:
+                  json.dump(stats, f, indent=2)
+                  f.write('\n')
+              print(f"Updated: {stats}")
+          except Exception as e:
+              print(f"Error fetching Scholar stats: {e}", file=sys.stderr)
+              sys.exit(1)
+          EOF
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/scholar_stats.json
+          git diff --staged --quiet || git commit -m "Auto-update Scholar stats"
+          git push
