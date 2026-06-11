@@ -58,12 +58,23 @@
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
-fetch('_data/news.json')
-  .then(r => r.json())
-  .then(data => {
+fetch('_data/news.md')
+  .then(r => r.text())
+  .then(text => {
+    const items = text.split(/
+(?=## )/)
+      .filter(s => s.startsWith('## '))
+      .map(s => {
+        const nl = s.indexOf('
+');
+        return {
+          date:    s.slice(3, nl).trim(),
+          content: s.slice(nl + 1).trim()
+        };
+      });
     const list = document.getElementById('latest-news');
     list.innerHTML = '';
-    data.items.slice(0, 3).forEach(item => {
+    items.slice(0, 3).forEach(item => {
       const li = document.createElement('li');
       li.className = 'news-item';
       li.innerHTML = `<div class="news-date">${item.date}</div>${marked.parse(item.content)}`;
