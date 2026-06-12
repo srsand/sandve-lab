@@ -61,14 +61,13 @@
 fetch('_data/news.md')
   .then(r => r.text())
   .then(text => {
-    const items = text.split(/
-(?=## )/)
-      .filter(s => s.startsWith('## '))
+    const items = text.split('\n## ')
+      .map((s, i) => (i === 0 ? s.replace(/^## /, '') : s))
+      .filter(s => s.trim().length > 0)
       .map(s => {
-        const nl = s.indexOf('
-');
+        const nl = s.indexOf('\n');
         return {
-          date:    s.slice(3, nl).trim(),
+          date:    s.slice(0, nl).trim(),
           content: s.slice(nl + 1).trim()
         };
       });
@@ -77,7 +76,7 @@ fetch('_data/news.md')
     items.slice(0, 3).forEach(item => {
       const li = document.createElement('li');
       li.className = 'news-item';
-      li.innerHTML = `<div class="news-date">${item.date}</div>${marked.parse(item.content)}`;
+      li.innerHTML = '<div class="news-date">' + item.date + '</div>' + marked.parse(item.content);
       list.appendChild(li);
     });
   })
