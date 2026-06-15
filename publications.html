@@ -40,11 +40,7 @@
   <div class="pub-stats-bar" id="pub-stats-bar">
     <div class="pub-stat">
       <span class="stat-number" id="stat-peer-count">…</span>
-      <span class="stat-label">Peer-reviewed papers</span>
-    </div>
-    <div class="pub-stat">
-      <span class="stat-number" id="stat-citations">…</span>
-      <span class="stat-label">Total citations</span>
+      <span class="stat-label">Published papers</span>
     </div>
     <a href="https://scholar.google.com/citations?user=QtceKEwAAAAJ"
        target="_blank" rel="noopener"
@@ -202,16 +198,6 @@ async function loadCristinPubs() {
 
 loadCristinPubs();
 
-// ── Scholar stats ──
-fetch('_data/scholar_stats.json')
-  .then(r => r.json())
-  .then(s => {
-    const fmt = n => (n > 0 ? n.toLocaleString() : '–');
-    document.getElementById('stat-citations').textContent = fmt(s.citations);
-  })
-  .catch(() => {
-    document.getElementById('stat-citations').textContent = '–';
-  });
 </script>
 
 </body>
