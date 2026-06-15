@@ -47,24 +47,16 @@
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
-fetch('_data/news.md')
-  .then(r => r.text())
-  .then(text => {
-    const items = text.split(/\n(?=## )/)
-      .filter(s => s.startsWith('## '))
-      .map(s => {
-        const nl = s.indexOf('\n');
-        return {
-          date:    s.slice(3, nl).trim(),
-          content: s.slice(nl + 1).trim()
-        };
-      });
+fetch('_data/news.json')
+  .then(r => r.json())
+  .then(data => {
+    const items = data.items || [];
     const list = document.getElementById('all-news');
     list.innerHTML = '';
     let currentYear = null;
     items.forEach(item => {
-      const year = item.date.split(' ').pop();
-      if (year !== currentYear) {
+      const year = (item.date || '').split(' ').pop();
+      if (year && year !== currentYear) {
         currentYear = year;
         const li = document.createElement('li');
         li.className = 'news-year';
@@ -73,9 +65,12 @@ fetch('_data/news.md')
       }
       const li = document.createElement('li');
       li.className = 'news-item';
-      li.innerHTML = `<div class="news-date">${item.date}</div>${marked.parse(item.content)}`;
+      li.innerHTML = `<div class="news-date">${item.date}</div>${marked.parse(item.content || '')}`;
       list.appendChild(li);
     });
+    if (items.length === 0) {
+      list.innerHTML = '<li style="color:#999;font-size:14px;padding:8px 0;">No updates yet.</li>';
+    }
   })
   .catch(() => {
     document.getElementById('all-news').innerHTML =

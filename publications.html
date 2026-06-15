@@ -46,10 +46,6 @@
       <span class="stat-number" id="stat-citations">…</span>
       <span class="stat-label">Total citations</span>
     </div>
-    <div class="pub-stat">
-      <span class="stat-number" id="stat-hindex">…</span>
-      <span class="stat-label">H-index</span>
-    </div>
     <a href="https://scholar.google.com/citations?user=QtceKEwAAAAJ"
        target="_blank" rel="noopener"
        class="pub-stat pub-stat-link">
@@ -212,11 +208,9 @@ fetch('_data/scholar_stats.json')
   .then(s => {
     const fmt = n => (n > 0 ? n.toLocaleString() : '–');
     document.getElementById('stat-citations').textContent = fmt(s.citations);
-    document.getElementById('stat-hindex').textContent    = fmt(s.h_index);
   })
   .catch(() => {
     document.getElementById('stat-citations').textContent = '–';
-    document.getElementById('stat-hindex').textContent    = '–';
   });
 </script>
 

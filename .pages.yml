@@ -1,0 +1,123 @@
+media:
+  input: images/uploaded
+  output: /images/uploaded
+
+content:
+
+  - name: news
+    label: News / Lab Updates
+    path: _data/news.json
+    type: file
+    fields:
+      - name: items
+        label: News Items
+        type: object
+        list: true
+        fields:
+          - name: date
+            label: Date
+            type: string
+            hint: "e.g. June 2026"
+          - name: content
+            label: Content
+            type: rich-text
+
+  - name: people_current
+    label: People – Current Members
+    path: _data/people-current.json
+    type: file
+    fields:
+      - name: members
+        label: Members
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Full Name
+            type: string
+          - name: role
+            label: Role
+            type: select
+            options:
+              values:
+                - Professor
+                - Associate Professor
+                - Researcher
+                - Postdoc
+                - PhD student
+                - MSc student
+                - Research assistant
+                - Visiting researcher
+          - name: photo
+            label: Photo
+            type: image
+            options:
+              input: images/people
+              output: /images/people
+          - name: url
+            label: Website URL
+            type: string
+
+  - name: people_previous
+    label: People – Previous Members
+    path: _data/people-previous.json
+    type: file
+    fields:
+      - name: members
+        label: Previous Members
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Full Name
+            type: string
+          - name: role
+            label: Role
+            type: string
+          - name: year
+            label: Year
+            type: string
+          - name: tags
+            label: Tags
+            type: string
+      - name: cosupervised
+        label: Co-supervised PhD Students
+        type: rich-text
+
+  - name: preprints
+    label: Preprints
+    path: _data/preprints.json
+    type: file
+    fields:
+      - name: items
+        label: Preprints
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Title
+            type: string
+          - name: authors
+            label: Authors
+            type: string
+          - name: server
+            label: Server
+            type: select
+            options:
+              values:
+                - bioRxiv
+                - medRxiv
+                - arXiv
+                - Other
+          - name: year
+            label: Year
+            type: string
+          - name: url
+            label: Preprint URL
+            type: string
+          - name: doi
+            label: DOI
+            type: string
+          - name: description
+            label: Short description
+            type: text
