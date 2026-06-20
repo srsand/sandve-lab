@@ -1,20 +1,20 @@
 {
   "items": [
     {
-      "title": "A major locus on chromosome 14 impacts developmental variation of Atlantic salmon smoltification",
-      "authors": "Marie Saitou, Domniki Manousi, Jayme van Dalum, Anja Striberny, Lars Grønvold, Cathrine Brekke, Solomon Antwi Boison, Jun Kwak, Arturo Vera Ponce de León, Bjarne Gjerde, Even Jørgensen, David Hazlerigg, Simen Rød Sandve",
-      "server": "bioRxiv",
-      "year": "2025",
-      "url": "https://doi.org/10.1101/2025.10.16.682803",
-      "doi": "10.1101/2025.10.16.682803"
-    },
-    {
       "title": "Large-scale eQTL analyses in Atlantic salmon reveal persistent dosage compensation 100 million years after genome duplication",
       "authors": "Célian Diblasi, Domniki Manousi, David Hazlerigg, Lars Grønvold, Nicola Jane Barson, Simen Rød Sandve, Marie Saitou",
       "server": "bioRxiv",
       "year": "2025",
       "url": "https://doi.org/10.64898/2025.12.15.694296",
       "doi": "10.64898/2025.12.15.694296"
+    },
+    {
+      "title": "A major locus on chromosome 14 impacts developmental variation of Atlantic salmon smoltification",
+      "authors": "Marie Saitou, Domniki Manousi, Jayme van Dalum, Anja Striberny, Lars Grønvold, Cathrine Brekke, Solomon Antwi Boison, Jun Kwak, Arturo Vera Ponce de León, Bjarne Gjerde, Even Jørgensen, David Hazlerigg, Simen Rød Sandve",
+      "server": "bioRxiv",
+      "year": "2025",
+      "url": "https://doi.org/10.1101/2025.10.16.682803",
+      "doi": "10.1101/2025.10.16.682803"
     }
   ]
 }
