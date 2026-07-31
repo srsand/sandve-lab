@@ -3,8 +3,7 @@
     {
       "name": "Simen Rød Sandve",
       "role": "Professor",
-      "photo": "images/people/simen.jpg",
-      "url": ""
+      "photo": "images/people/simen.jpg"
     },
     {
       "name": "Thu-Hien To",
@@ -15,44 +14,37 @@
     {
       "name": "Lars Grønvold",
       "role": "Researcher",
-      "photo": "images/people/lars.jpg",
-      "url": ""
+      "photo": "images/people/lars.jpg"
     },
     {
       "name": "Gareth Gillard",
       "role": "Researcher",
-      "photo": "images/people/gareth.jpg",
-      "url": ""
+      "photo": "images/people/gareth.jpg"
     },
     {
       "name": "Helle Tessand Baalsrud",
-      "role": "Postdoc",
-      "photo": "images/people/helle.jpg",
-      "url": ""
+      "role": "Researcher",
+      "photo": "images/people/helle.jpg"
     },
     {
       "name": "Cathrine Brekke",
-      "role": "Researcher",
-      "photo": "images/people/cathrine.png",
-      "url": ""
+      "role": "Postdoc",
+      "photo": "images/people/cathrine.png"
     },
     {
       "name": "Christiaan Henkel",
       "role": "Researcher",
-      "photo": "images/people/christiaan.png",
-      "url": ""
+      "photo": "images/people/christiaan.png"
     },
     {
       "name": "Marius Strand",
       "role": "PhD student",
-      "photo": "images/people/marius.jpg",
-      "url": ""
+      "photo": "images/people/marius.jpg"
     },
     {
       "name": "Iselin X. T. Lam",
       "role": "MSc student",
-      "photo": "images/people/iselin.jpg",
-      "url": ""
+      "photo": "images/people/iselin.jpg"
     }
   ]
 }
