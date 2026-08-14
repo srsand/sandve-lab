@@ -1,0 +1,1617 @@
+{
+  "last_updated": "2026-08-14",
+  "count": 82,
+  "items": [
+    {
+      "identifier": "019db505a3ba-4ae2899f-a701-441b-9918-9c5c1e665008",
+      "title": "OmniCorr: an R-package for visualizing putative host-microbiome interactions using multi-omics data",
+      "authors": [
+        "Shashank Gupta",
+        "Veronica Quarato",
+        "Wanxin Lai",
+        "Carl Mathias Kobel",
+        "Velma T. E. Aho",
+        "Arturo Vera-Ponce de León",
+        "Sabina Leanti La  Rosa",
+        "Simen Rød Sandve",
+        "Phillip Pope",
+        "Torgeir Rhoden Hvidsten"
+      ],
+      "year": "2026",
+      "journal": "Bioinformatics Advances",
+      "volume": "6",
+      "issue": "1",
+      "doi": "https://doi.org/10.1093/bioadv/vbag057",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "019c23b78493-acf08191-f35d-4a60-906c-d014850a1776",
+      "title": "Sequence-based chromatin activity modeling and regulatory impact prediction of genetic variants in farmed animals using deep learning",
+      "authors": [
+        "Dat Nguyen",
+        "Tim Martin Knutsen",
+        "Simen Rød Sandve",
+        "Sigbjørn Lien",
+        "Lars Grønvold"
+      ],
+      "year": "2025",
+      "journal": "NAR Genomics and Bioinformatics",
+      "volume": "7",
+      "issue": "4",
+      "doi": "https://doi.org/10.1093/nargab/lqaf139",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "019b276b9cf7-231eea31-2ff4-45a7-9faf-66733d204f14",
+      "title": "Photoperiodic history modulates the response of the saccus vasculosus transcriptome to seawater exposure in Atlantic salmon",
+      "authors": [
+        "Alex West",
+        "Shona Wood",
+        "Marianne Iversen",
+        "Mattis Jayme van Dalum",
+        "Even Jørgensen",
+        "Simen Rød Sandve",
+        "David Hazlerigg"
+      ],
+      "year": "2025",
+      "journal": "Journal of Comparative Physiology A. Sensory, neural, and behavioral physiology",
+      "volume": "",
+      "issue": "",
+      "doi": "https://doi.org/10.1007/s00359-025-01779-w",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "019b037387b7-94157724-211f-4c9a-8955-29c16898e3f3",
+      "title": "A nextflow pipeline for molecular quantitative trait loci mapping in small sample size datasets with an application in Atlantic salmon",
+      "authors": [
+        "Nguyen Thanh Dat",
+        "Simen Rød Sandve",
+        "Sigbjørn Lien",
+        "Lars Grønvold"
+      ],
+      "year": "2025",
+      "journal": "BMC Genomics",
+      "volume": "26",
+      "issue": "1",
+      "doi": "https://doi.org/10.1186/s12864-025-12302-5",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "019a82076e73-4fbf8d9b-942b-4421-9525-2bb6f495c829",
+      "title": "Calcium starvation leads to strain-specific gene regulation of lipid and carotenoid production in Mucor circinelloides",
+      "authors": [
+        "Helle Tessand Baalsrud",
+        "Dana Byrtusova",
+        "Thu-Hien To",
+        "Ida Emilie Larsen",
+        "Veronica Aarvik Bøe",
+        "Lars Grønvold",
+        "Juan Fu",
+        "Mariann Arnyasi",
+        "Volha Shapaval",
+        "Simen Rød Sandve"
+      ],
+      "year": "2025",
+      "journal": "G3: Genes, Genomes, Genetics",
+      "volume": "15",
+      "issue": "11",
+      "doi": "https://doi.org/10.1093/g3journal/jkaf207",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "019a7e8c6f09-836b24de-e14c-448f-9a3b-d542fbbdd667",
+      "title": "TAD conservation in vertebrate genomes is driven by stabilising selection",
+      "authors": [
+        "Fabiana Patalano",
+        "Simen Rød Sandve",
+        "Rein Aasland",
+        "Jonas Paulsen"
+      ],
+      "year": "2025",
+      "journal": "BMC Biology",
+      "volume": "23",
+      "issue": "1",
+      "doi": "https://doi.org/10.1186/s12915-025-02362-0",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "019a15e2cda2-9e81567e-a46a-4da8-84d5-4c974710b168",
+      "title": "Gene gain and loss drive the diversification of gig immune genes in teleosts: structural and regulatory insights from Atlantic salmon",
+      "authors": [
+        "Domniki Manousi",
+        "Shahmir Naseer",
+        "Samuel A.M. Martin",
+        "Simen Rød Sandve",
+        "Marie Saitou"
+      ],
+      "year": "2025",
+      "journal": "Fish & Shellfish Immunology Reports",
+      "volume": "",
+      "issue": "",
+      "doi": "https://doi.org/10.1016/j.fsi.2025.110975",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0199e6d07fa2-9a44dbff-aa96-47c3-b10c-03f38c4f980f",
+      "title": "Impact of three light smoltification regimes on the performance and genetic parameters of traits in Atlantic salmon",
+      "authors": [
+        "Bjarne Gjerde",
+        "Solomon Antwi  Boison",
+        "David Hazlerigg",
+        "Trine Ytrestøyl",
+        "Turid Mørkøre",
+        "Even Jørgensen",
+        "Anja Striberny",
+        "Simen Rød Sandve"
+      ],
+      "year": "2025",
+      "journal": "Frontiers in Animal Science",
+      "volume": "6",
+      "issue": "",
+      "doi": "https://doi.org/10.3389/fanim.2025.1615804",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "01995c931254-294a73eb-8ecf-4acd-ad51-6759ae15efcd",
+      "title": "Gamma radiation-induced molecular toxicity and effects on pluripotent stem cells of the radiosensitive conifer Norway spruce (Picea abies)",
+      "authors": [
+        "Payel Bhattacharjee",
+        "YeonKyeong Lee",
+        "Marcos Viejo",
+        "Gareth Benjamin Gillard",
+        "Simen Rød Sandve",
+        "Torgeir Rhoden Hvidsten",
+        "Brit Salbu",
+        "Dag Anders Brede",
+        "Jorunn Elisabeth Olsen"
+      ],
+      "year": "2025",
+      "journal": "Planta",
+      "volume": "262",
+      "issue": "5",
+      "doi": "https://doi.org/10.1007/s00425-025-04819-6",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "01995c8da500-a2d05f37-6f14-48f6-9daf-08b62e77935c",
+      "title": "High radiosensitivity in the conifer Norway spruce (Picea abies) due to less comprehensive mobilisation of protection and repair responses compared to the radiotolerant Arabidopsis thaliana",
+      "authors": [
+        "Payel Bhattacharjee",
+        "Dajana Blagojevic",
+        "YeonKyeong Lee",
+        "Gareth Benjamin Gillard",
+        "Lars Grønvold",
+        "Torgeir Rhoden Hvidsten",
+        "Simen Rød Sandve",
+        "Ole Christian Lind",
+        "Brit Salbu",
+        "Dag Anders Brede"
+      ],
+      "year": "2025",
+      "journal": "Plant Stress",
+      "volume": "18",
+      "issue": "",
+      "doi": "https://doi.org/10.1016/j.stress.2025.101010",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc979675-84b4801d-759d-4db9-b8c1-b21991631e79",
+      "title": "Comparative regulomics supports pervasive selection on gene dosage following whole genome duplication",
+      "authors": [
+        "Gareth Benjamin Gillard",
+        "Lars Grønvold",
+        "Line Lieblein Røsæg",
+        "Matilde Mengkrog Holen",
+        "Øystein Monsen",
+        "Ben F. Koop",
+        "Eric B. Rondeau",
+        "Manu Kumar Gundappa",
+        "John Mendoza",
+        "Daniel J. Macqueen"
+      ],
+      "year": "2021",
+      "journal": "Genome Biology",
+      "volume": "22",
+      "issue": "",
+      "doi": "https://doi.org/10.1186/s13059-021-02323-0",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc9604d6-ad4eb0a0-d945-4f86-ad07-0768ea46a422",
+      "title": "Identification of candidate genes important for frost tolerance in Festuca pratensis Huds. by transcriptional profiling",
+      "authors": [
+        "Heidi Rudi",
+        "Simen Rød Sandve",
+        "Lars Morten Opseth",
+        "Arild Larsen",
+        "Odd Arne Rognli"
+      ],
+      "year": "2011",
+      "journal": "Plant Science",
+      "volume": "180",
+      "issue": "1",
+      "doi": "https://doi.org/10.1016/j.plantsci.2010.07.014",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc95d654-3dcfcba6-bae4-422f-b557-a33aac40bee4",
+      "title": "The structural variation landscape in 492 Atlantic\r\nsalmon genomes",
+      "authors": [
+        "Alicia C. Bertolotti",
+        "Ryan M. Layer",
+        "Manu Kumar Gundappa",
+        "Michael D. Gallagher",
+        "Ege Pehlivanoglu",
+        "Torfinn Nome",
+        "Diego Robledo",
+        "Matthew Peter Kent",
+        "Line Lieblein Røsæg",
+        "Matilde Mengkrog Holen"
+      ],
+      "year": "2020",
+      "journal": "Nature Communications",
+      "volume": "11",
+      "issue": "",
+      "doi": "https://doi.org/10.1038/s41467-020-18972-x",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc9467ce-21cff0a8-f7e8-4ecc-905c-e628ee414046",
+      "title": "Photoperiod-dependent developmental reprogramming of the transcriptional response to seawater entry in Atlantic salmon (Salmo salar)",
+      "authors": [
+        "Marianne Iversen",
+        "Teshome Dagne Mulugeta",
+        "Alexander Christopher West",
+        "Even Hjalmar Jørgensen",
+        "Samuel A. M. Martin",
+        "Simen Rød Sandve",
+        "David Hazlerigg"
+      ],
+      "year": "2021",
+      "journal": "G3: Genes, Genomes, Genetics",
+      "volume": "11",
+      "issue": "4",
+      "doi": "https://doi.org/10.1093/g3journal/jkab072",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc9428f2-e9520aa7-2ce8-4f98-980d-5524b4307aa2",
+      "title": "The need for high-resolution gut microbiome characterization to design efficient strategies for sustainable aquaculture production",
+      "authors": [
+        "Shashank Gupta",
+        "Arturo Vera-Ponce de León",
+        "Miyako Kodama",
+        "Matthias Hötzinger",
+        "Cecilie G. Clausen",
+        "Louisa Pless",
+        "Ana R. A. Verissimo",
+        "Bruno Stengel",
+        "Virginia Calabuig",
+        "Renate Kvingedal"
+      ],
+      "year": "2024",
+      "journal": "Communications Biology",
+      "volume": "7",
+      "issue": "1",
+      "doi": "https://doi.org/10.1038/s42003-024-07087-4",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc921143-b97cb9f0-8ff7-4fd0-bebc-72b377241d82",
+      "title": "Comparative analyses reveal potential uses of Brachypodium distachyon as a model for cold stress responses in temperate grasses",
+      "authors": [
+        "Chuan Li",
+        "Heidi Rudi",
+        "Eric J. Stockinger",
+        "Hongmei Cheng",
+        "Moju Cao",
+        "Samuel E. Fox",
+        "Todd C. Mockler",
+        "Bjørge Westereng",
+        "Siri Fjellheim",
+        "Odd Arne Rognli"
+      ],
+      "year": "2012",
+      "journal": "BMC Plant Biology",
+      "volume": "12",
+      "issue": "",
+      "doi": "https://doi.org/10.1186/1471-2229-12-65",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc916c25-b4a36958-689a-4a4b-948a-9a892e47e2f7",
+      "title": "The evolution and functional divergence of the beta-carotene oxygenase gene family in teleost fish-Exemplified by Atlantic salmon",
+      "authors": [
+        "Hanna Helgeland",
+        "Simen Rød Sandve",
+        "Jacob Torgersen",
+        "Mari Kyllesø Halle",
+        "Hilde Sundvold",
+        "Stig William Omholt",
+        "Dag Inge Våge"
+      ],
+      "year": "2014",
+      "journal": "Gene",
+      "volume": "543",
+      "issue": "2",
+      "doi": "https://doi.org/10.1016/j.gene.2014.02.042",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc90d4a8-19875da3-2e10-478b-9425-ca16681b929f",
+      "title": "Genetic mapping of DArT markers in the Festuca-Lolium complex and their use in freezing tolerance association analysis",
+      "authors": [
+        "Jan Bartoš",
+        "Simen Rød Sandve",
+        "Roland Kölliker",
+        "David Kopecký",
+        "Pavla Christelová",
+        "Štěpán Stočes",
+        "Liv Østrem",
+        "Arild Larsen",
+        "Andrzej Kilian",
+        "Odd Arne Rognli"
+      ],
+      "year": "2011",
+      "journal": "Theoretical and Applied Genetics",
+      "volume": "122",
+      "issue": "6",
+      "doi": "https://doi.org/10.1007/s00122-010-1518-z",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc90aa4e-32d9db6f-56b5-468c-9546-02d0516e83a7",
+      "title": "Subfunctionalization versus neofunctionalization after whole-genome duplication",
+      "authors": [
+        "Simen Rød Sandve",
+        "Rori V Rohlfs",
+        "Torgeir Rhoden Hvidsten"
+      ],
+      "year": "2018",
+      "journal": "Nature Genetics",
+      "volume": "50",
+      "issue": "7",
+      "doi": "https://doi.org/10.1038/s41588-018-0162-4",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc8fbf1e-0679e12c-6ee6-42de-88a2-65d5eec75222",
+      "title": "Two adjacent inversions maintain genomic differentiation between migratory and stationary ecotypes of Atlantic cod",
+      "authors": [
+        "Tina Graceline Kirubakaran",
+        "Harald Grove",
+        "Matthew Peter Kent",
+        "Simen Rød Sandve",
+        "Matthew Baranski",
+        "Torfinn Nome",
+        "Maria Cristina De Rosa",
+        "Benedetta Righino",
+        "Torild Johansen",
+        "Håkon Magne Otterå"
+      ],
+      "year": "2016",
+      "journal": "Molecular Ecology",
+      "volume": "25",
+      "issue": "10",
+      "doi": "https://doi.org/10.1111/mec.13592",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc8c72f2-44f68a44-2006-41c1-94af-b1ca20ce7b1c",
+      "title": "The grayling genome reveals selection on gene expression regulation after whole-genome duplication",
+      "authors": [
+        "Srinidhi Varadharajan",
+        "Simen Rød Sandve",
+        "Gareth Benjamin Gillard",
+        "Ole K. Tørresen",
+        "Teshome Dagne Mulugeta",
+        "Torgeir Rhoden Hvidsten",
+        "Sigbjørn Lien",
+        "Leif Asbjørn Vøllestad",
+        "Sissel Jentoft",
+        "Alexander Johan Nederbragt"
+      ],
+      "year": "2018",
+      "journal": "Genome Biology and Evolution (GBE)",
+      "volume": "10",
+      "issue": "10",
+      "doi": "https://doi.org/10.1093/gbe/evy201",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc8b81d7-8b1d3eaf-ea05-43c8-81aa-50261b70dcbd",
+      "title": "Hypothalamic tanycytes as mediators of maternally programmed seasonal plasticity",
+      "authors": [
+        "Vebjørn Jacobsen Melum",
+        "Cristina Sáenz de Miera",
+        "Fredrik Andreas Fasth Markussen",
+        "Fernando Cazarez Marquez",
+        "Catherine Jaeger",
+        "Simen Rød Sandve",
+        "Valérie Simonneaux",
+        "David Grey Hazlerigg",
+        "Shona Hiedi Wood"
+      ],
+      "year": "2024",
+      "journal": "Current Biology",
+      "volume": "34",
+      "issue": "3",
+      "doi": "https://doi.org/10.1016/j.cub.2023.12.042",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc871d07-10f9eb22-9af0-4489-a3f4-c1c34ee05469",
+      "title": "The genome regulatory landscape of Atlantic salmon liver through smoltification",
+      "authors": [
+        "Thomas Nelson Harvey",
+        "Gareth Benjamin Gillard",
+        "Line Lieblein Røsæg",
+        "Fabian Grammes",
+        "Øystein Monsen",
+        "Jon Olav Vik",
+        "Torgeir Rhoden Hvidsten",
+        "Simen Rød Sandve"
+      ],
+      "year": "2024",
+      "journal": "PLOS ONE",
+      "volume": "19",
+      "issue": "4",
+      "doi": "https://doi.org/10.1371/journal.pone.0302388",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc86e231-3f451e68-d82b-4421-bd37-9191911e0094",
+      "title": "Studentaktive læringsformer i høyere utdanning - i emner med stort antall studenter.",
+      "authors": [
+        "Linda Helèn Godager",
+        "Siri Fjellheim",
+        "Simen Rød Sandve"
+      ],
+      "year": "2022",
+      "journal": "Nordic Journal of STEM Education",
+      "volume": "6",
+      "issue": "1",
+      "doi": "https://doi.org/10.5324/njsteme.v6i1.4123",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc86ce02-618f659b-8ce5-4728-aaa1-4fb97aafbb31",
+      "title": "Chloroplast phylogeny of Triticum/Aegilops species is not incongruent with an ancient homoploid hybrid origin of the ancestor of the bread wheat D-genome",
+      "authors": [
+        "Simen Rød Sandve",
+        "Thomas Marcussen",
+        "Klaus F X Mayer",
+        "Kjetill Sigurd Jakobsen",
+        "Lise Heier",
+        "Burkhard Steuernagel",
+        "Brande B.H. Wulff",
+        "Odd-Arne Olsen"
+      ],
+      "year": "2015",
+      "journal": "New Phytologist",
+      "volume": "208",
+      "issue": "1",
+      "doi": "https://doi.org/10.1111/nph.13487",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc860102-9c527bb3-52cd-43c6-ba50-53dccb1e7041",
+      "title": "Functional validation of transposable element–derived cis-regulatory elements in Atlantic salmon",
+      "authors": [
+        "Hanna Magdalena Sahlström",
+        "Alex Kojo Datsomor",
+        "Øystein Monsen",
+        "Torgeir Rhodén Hvidsten",
+        "Simen Rød Sandve"
+      ],
+      "year": "2023",
+      "journal": "G3: Genes, Genomes, Genetics",
+      "volume": "13",
+      "issue": "4",
+      "doi": "https://doi.org/10.1093/g3journal/jkad034",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc85ad33-cc8b00f5-b623-47c7-9b13-037a5c19b2fb",
+      "title": "Efficient transfection of Atlantic salmon primary hepatocyte cells for functional assays and gene editing",
+      "authors": [
+        "Alex Kojo Datsomor",
+        "Ragnhild Wilberg",
+        "Jacob Seilø Torgersen",
+        "Simen Rød Sandve",
+        "Thomas Nelson Harvey"
+      ],
+      "year": "2023",
+      "journal": "G3: Genes, Genomes, Genetics",
+      "volume": "13",
+      "issue": "4",
+      "doi": "https://doi.org/10.1093/g3journal/jkad039",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc845d4b-fe4a2d68-f8b3-4527-887c-4a5665c62b58",
+      "title": "Evidence for adaptive evolution of low-temperature stress response genes in a Pooideae grass ancestor",
+      "authors": [
+        "Magnus Dehli Vigeland",
+        "Manuel Spannagl",
+        "Torben Asp",
+        "Cristiana Paina",
+        "Heidi Rudi",
+        "Odd Arne Rognli",
+        "Siri Fjellheim",
+        "Simen Rød Sandve"
+      ],
+      "year": "2013",
+      "journal": "New Phytologist",
+      "volume": "199",
+      "issue": "4",
+      "doi": "https://doi.org/10.1111/nph.12337",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc840823-d4f6bf6e-30d3-4a49-a3de-b8fdbb7c08b2",
+      "title": "Lineage-specific rediploidization is a mechanism to explain time-lags between genome duplication and evolutionary diversification",
+      "authors": [
+        "Fiona M Robertson",
+        "Manu Kumar Gundappa",
+        "Fabian Grammes",
+        "Torgeir Rhoden Hvidsten",
+        "Anthony K Redmond",
+        "Sigbjørn Lien",
+        "Samuel AM Martin",
+        "Peter WH Holland",
+        "Simen Rød Sandve",
+        "Daniel J Macqueen"
+      ],
+      "year": "2017",
+      "journal": "Genome Biology",
+      "volume": "18",
+      "issue": "",
+      "doi": "https://doi.org/10.1186/s13059-017-1241-z",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc83e1bd-ac96a9d8-6d81-40fe-ba20-7d0cbb04e1da",
+      "title": "RNA profiling identifies novel, photoperiodhistory dependent markers associated with enhanced saltwater performance in juvenile Atlantic salmon",
+      "authors": [
+        "Marianne Iversen",
+        "Teshome Dagne Mulugeta",
+        "Børge Gellein Blikeng",
+        "Alexander Christopher West",
+        "Even Hjalmar Jørgensen",
+        "Simen Rød Sandve",
+        "David Hazlerigg"
+      ],
+      "year": "2020",
+      "journal": "PLOS ONE",
+      "volume": "15",
+      "issue": "4",
+      "doi": "https://doi.org/10.1371/journal.pone.0227496",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc8373c6-3af1cef3-cdc6-4535-894f-1dca4909ee26",
+      "title": "SalmoBase: An integrated molecular data resource for Salmonid species",
+      "authors": [
+        "Jeevan Karloss Antony Samy",
+        "Teshome Dagne Mulugeta",
+        "Torfinn Nome",
+        "Simen Rød Sandve",
+        "Fabian Grammes",
+        "Matthew Peter Kent",
+        "Sigbjørn Lien",
+        "Dag Inge Våge"
+      ],
+      "year": "2017",
+      "journal": "BMC Genomics",
+      "volume": "18",
+      "issue": "1",
+      "doi": "https://doi.org/10.1186/s12864-017-3877-1",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc832d0d-d723513b-cde4-4100-ad21-422466905be0",
+      "title": "Gut microbes linked to metabolism in juvenile Atlantic salmon",
+      "authors": [
+        "Hanne Dvergedal",
+        "Simen Rød Sandve",
+        "Inga Leena Angell",
+        "Gunnar Klemetsdal",
+        "Knut Rudi"
+      ],
+      "year": "2021",
+      "journal": "Microbiome",
+      "volume": "",
+      "issue": "",
+      "doi": "",
+      "type": "ProfessionalArticle"
+    },
+    {
+      "identifier": "0198cc7ecc3c-fff116a9-5181-4bc1-89be-3844e50f3ba1",
+      "title": "SalMotifDB: a tool for analyzing putative transcription factor binding sites in salmonid genomes",
+      "authors": [
+        "Teshome Dagne Mulugeta",
+        "Torfinn Nome",
+        "Thu-Hien To",
+        "Manu Kumar Gundappa",
+        "Daniel J. Macqueen",
+        "Dag Inge Våge",
+        "Simen Rød Sandve",
+        "Torgeir Rhoden Hvidsten"
+      ],
+      "year": "2019",
+      "journal": "BMC Genomics",
+      "volume": "20",
+      "issue": "1",
+      "doi": "https://doi.org/10.1186/s12864-019-6051-0",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc7e8436-cb11af02-cf9e-4b3c-b102-6092a016ddbf",
+      "title": "Mid and hindgut transcriptome profiling analysis of Atlantic salmon (Salmon salar) under unpredictable chronic stress",
+      "authors": [
+        "Signe Dille Løvmo",
+        "Angelico Madaro",
+        "Paul Whatmore",
+        "Tora Bardal",
+        "Mari-Ann Østensen",
+        "Simen Rød Sandve",
+        "Rolf Erik Olsen"
+      ],
+      "year": "2020",
+      "journal": "Royal Society Open Science",
+      "volume": "7",
+      "issue": "2",
+      "doi": "https://doi.org/10.1098/rsos.191480",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc7c79ba-5585dd7a-1eda-4848-ab96-599fdcdcf554",
+      "title": "Diversified regulation of circadian clock gene expression following whole genome duplication",
+      "authors": [
+        "Alexander Christopher West",
+        "Marianne Iversen",
+        "Even Hjalmar Jørgensen",
+        "Simen Rød Sandve",
+        "David Hazlerigg",
+        "Shona Hiedi Wood"
+      ],
+      "year": "2020",
+      "journal": "PLoS Genetics",
+      "volume": "16",
+      "issue": "10",
+      "doi": "https://doi.org/10.1371/journal.pgen.1009097",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc7bef7e-13d90183-ba87-45e6-9371-7a98537cf82d",
+      "title": "Adaptation to seasonality and the winter freeze",
+      "authors": [
+        "Jill C. Preston",
+        "Simen Rød Sandve"
+      ],
+      "year": "2013",
+      "journal": "Frontiers in Plant Science",
+      "volume": "4:167",
+      "issue": "",
+      "doi": "https://doi.org/10.3389/fpls.2013.00167",
+      "type": "AcademicLiteratureReview"
+    },
+    {
+      "identifier": "0198cc7babb4-3e09b59a-4615-4823-ac98-87dd1bd64efb",
+      "title": "Identification of 121 variants of honey bee Vitellogenin protein sequences with structural differences at functional sites",
+      "authors": [
+        "Vilde Leipart",
+        "Jane Ludvigsen",
+        "Matthew Peter Kent",
+        "Simen Rød Sandve",
+        "Thu-Hien To",
+        "Mariann Arnyasi",
+        "Claus D Kreibich",
+        "Bjørn Steinar Dahle",
+        "Gro Vang Amdam"
+      ],
+      "year": "2022",
+      "journal": "Protein Science",
+      "volume": "31",
+      "issue": "7",
+      "doi": "https://doi.org/10.1002/pro.4369",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc7a4ee7-3fd8095b-27a5-4922-96ee-d4cb88d76e09",
+      "title": "Diet and Life Stage-Associated Lipidome Remodeling in Atlantic Salmon",
+      "authors": [
+        "Yang Jin",
+        "Thomas Nelson Harvey",
+        "Zdenka Bartosova",
+        "Sahar Hassani",
+        "Per Bruheim",
+        "Simen Rød Sandve",
+        "Jon Olav Vik"
+      ],
+      "year": "2021",
+      "journal": "Journal of Agricultural and Food Chemistry",
+      "volume": "69",
+      "issue": "12",
+      "doi": "https://doi.org/10.1021/acs.jafc.0c07281",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc7974af-679cba2b-568f-48fe-91b1-a47e6d259c0e",
+      "title": "Integration of mate pair sequences to improve shotgun assemblies of flow-sorted chromosome arms of hexaploid wheat",
+      "authors": [
+        "Tatiana Belova",
+        "Bujie Zhan",
+        "Jonathan Wright",
+        "Mario Caccamo",
+        "Torben Asp",
+        "Hana Simkova",
+        "Matthew Peter Kent",
+        "Christian Bendixen",
+        "Frank Panitz",
+        "Sigbjørn Lien"
+      ],
+      "year": "2013",
+      "journal": "BMC Genomics",
+      "volume": "14",
+      "issue": "",
+      "doi": "https://doi.org/10.1186/1471-2164-14-222",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc79045e-944d6f07-d9ae-4083-87de-9028698cd8dd",
+      "title": "Population structure, genetic variation and linkage disequilibrium in perennial ryegrass populations divergently selected for freezing tolerance",
+      "authors": [
+        "Mallikarjuna Rao Kovi",
+        "Siri Fjellheim",
+        "Simen Rød Sandve",
+        "Arild Larsen",
+        "Heidi Rudi",
+        "Torben Asp",
+        "Matthew Peter Kent",
+        "Odd Arne Rognli"
+      ],
+      "year": "2015",
+      "journal": "Frontiers in Plant Science",
+      "volume": "6",
+      "issue": "NOVEMBER",
+      "doi": "https://doi.org/10.3389/fpls.2015.00929",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc774eb7-1308fc1d-e844-4094-a669-7aba5751d50a",
+      "title": "A systemic study of lipid metabolism regulation in salmon fingerlings and early juveniles fed plant oil",
+      "authors": [
+        "Yang Jin",
+        "Rolf Erik Olsen",
+        "Gareth B. Gillard",
+        "Mari-Ann Østensen",
+        "Sven A. Korsvoll",
+        "Nina Santi",
+        "Jon Olav Vik",
+        "Simen Rød Sandve",
+        "Yngvar Olsen"
+      ],
+      "year": "2018",
+      "journal": "British Journal of Nutrition",
+      "volume": "120",
+      "issue": "6",
+      "doi": "https://doi.org/10.1017/S0007114518001885",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc75e08b-c1751f39-ca60-47de-916f-9094a5d725ad",
+      "title": "Ancient hybridizations among the ancestral genomes of bread wheat",
+      "authors": [
+        "Thomas Marcussen",
+        "Simen Rød Sandve",
+        "Lise Heier",
+        "Manuel Spannagl",
+        "Matthias Pfeifer",
+        "IWGSC The International Wheat Genom",
+        "Kjetill Sigurd Jakobsen",
+        "Brande B.H. Wulff",
+        "Burkhard Steuernagel",
+        "Klaus Mayer"
+      ],
+      "year": "2014",
+      "journal": "Science",
+      "volume": "345",
+      "issue": "6194",
+      "doi": "https://doi.org/10.1126/science.1250092",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc75d80f-1aecae8b-6eb0-4b52-98d4-92c505f7750a",
+      "title": "The effect of dietary chitin on Atlantic salmon (Salmo salar) chitinase activity, gene expression, and microbial composition",
+      "authors": [
+        "Matilde Mengkrog Holen",
+        "Simen Rød Sandve",
+        "Thomas Nelson Harvey",
+        "Yang Jin",
+        "Inga Leena Angell",
+        "Knut Rudi",
+        "Matthew Peter Kent"
+      ],
+      "year": "2024",
+      "journal": "Aquaculture and Fisheries",
+      "volume": "",
+      "issue": "",
+      "doi": "https://doi.org/10.1016/j.aaf.2024.10.005",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc6fd27d-dacae0f9-4c7a-4a97-8395-e4a7c5975eb6",
+      "title": "The chromosome-level genome assembly of european grayling reveals aspects of a unique genome evolution process within salmonids",
+      "authors": [
+        "Tiina Savilammi",
+        "Craig R. Primmer",
+        "Srinidhi Varadharajan",
+        "Rene Guyomard",
+        "Yann Guiguen",
+        "Simen Rød Sandve",
+        "Leif Asbjørn Vøllestad",
+        "Spiros Papakostas",
+        "Sigbjørn Lien"
+      ],
+      "year": "2019",
+      "journal": "G3: Genes, Genomes, Genetics",
+      "volume": "9",
+      "issue": "5",
+      "doi": "https://doi.org/10.1534/g3.118.200919",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc6e11f9-386bc780-5e1b-4d78-bd3a-ed6ce2424755",
+      "title": "Transkingdom network analysis provides insight into host-microbiome interactions in Atlantic salmon",
+      "authors": [
+        "Marius Andre Strand",
+        "Yang Jin",
+        "Simen Rød Sandve",
+        "Phillip Pope",
+        "Torgeir Rhoden Hvidsten"
+      ],
+      "year": "2021",
+      "journal": "Computational and Structural Biotechnology Journal",
+      "volume": "19",
+      "issue": "",
+      "doi": "https://doi.org/10.1016/j.csbj.2021.01.038",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc6d4568-c8c97d6b-21bd-49d8-87e9-6413b82cc954",
+      "title": "Genome interplay in the grain transcriptome of hexaploid bread wheat",
+      "authors": [
+        "Matthias Pfeifer",
+        "Karl G Kugler",
+        "Simen Rød Sandve",
+        "Bujie Zhan",
+        "Heidi Rudi",
+        "Torgeir Rhoden Hvidsten",
+        "Klaus F X Mayer",
+        "Odd-Arne Olsen"
+      ],
+      "year": "2014",
+      "journal": "Science",
+      "volume": "345",
+      "issue": "6194",
+      "doi": "https://doi.org/10.1126/science.1250091",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc6d0807-435ae7f7-ab12-4cf9-a664-8b837868b373",
+      "title": "Gene family expansion and functional diversification of chitinase and chitin synthase genes in Atlantic salmon (Salmo salar)",
+      "authors": [
+        "Matilde Mengkrog Holen",
+        "Gustav Vaaje-Kolstad",
+        "Matthew Peter Kent",
+        "Simen Rød Sandve"
+      ],
+      "year": "2023",
+      "journal": "G3: Genes, Genomes, Genetics",
+      "volume": "13",
+      "issue": "6",
+      "doi": "https://doi.org/10.1093/g3journal/jkad069",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc6d0234-2b0243f1-47cc-4920-b5b0-d8d9955730d5",
+      "title": "Extracting functional trends from whole genome duplication events using comparative genomics",
+      "authors": [
+        "Russell A. Hermansen",
+        "Torgeir Rhoden Hvidsten",
+        "Simen Rød Sandve",
+        "David A. Liberles"
+      ],
+      "year": "2016",
+      "journal": "Biological Procedures Online",
+      "volume": "18:11",
+      "issue": "",
+      "doi": "https://doi.org/10.1186/s12575-016-0041-2",
+      "type": "AcademicLiteratureReview"
+    },
+    {
+      "identifier": "0198cc6ae2fe-06ed9f47-12be-49db-b97e-0728f6066c3a",
+      "title": "Evolution of cold acclimation and its role in niche transition in the temperate grass subfamily Pooideae",
+      "authors": [
+        "Marian Schubert",
+        "Lars Grønvold",
+        "Simen Rød Sandve",
+        "Torgeir Rhoden Hvidsten",
+        "Siri Fjellheim"
+      ],
+      "year": "2019",
+      "journal": "Plant Physiology",
+      "volume": "180",
+      "issue": "1",
+      "doi": "https://doi.org/10.1104/pp.18.01448",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc685dbd-fb29d5f0-e949-4751-95ec-ccf50f2c9ba0",
+      "title": "Genome-Wide Reconstruction of Rediploidization Following Autopolyploidization across One Hundred Million Years of Salmonid Evolution",
+      "authors": [
+        "Manu Kumar Gundappa",
+        "Thu-Hien To",
+        "Lars Grønvold",
+        "Samuel A. M. Martin",
+        "Sigbjørn Lien",
+        "Jürgen Geist",
+        "David Hazlerigg",
+        "Simen Rød Sandve",
+        "Daniel J. Macqueen"
+      ],
+      "year": "2021",
+      "journal": "Molecular Biology and Evolution (MBE)",
+      "volume": "",
+      "issue": "",
+      "doi": "https://doi.org/10.1093/molbev/msab310",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc685605-2297913e-3006-4400-b718-940c067ff647",
+      "title": "Transcriptional development of phospholipid and lipoprotein metabolism in different intestinal regions of Atlantic salmon (Salmo salar) fry",
+      "authors": [
+        "Yang Jin",
+        "Rolf Erik Olsen",
+        "Mari-Ann Østensen",
+        "Gareth Benjamin Gillard",
+        "Sven Arild Korsvoll",
+        "Nina Santi",
+        "Arne Bjørke Gjuvsland",
+        "Jon Olav Vik",
+        "Jacob Seilø Torgersen",
+        "Simen Rød Sandve"
+      ],
+      "year": "2018",
+      "journal": "BMC Genomics",
+      "volume": "19",
+      "issue": "",
+      "doi": "https://doi.org/10.1186/s12864-018-4651-8",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc677c56-0b0c8bd0-e053-4505-8f6f-3e89a53d3537",
+      "title": "Shifting the limits in wheat research and breeding using a fully annotated reference genome",
+      "authors": [
+        "Rudi Appels",
+        "Kellye Eversole",
+        "Catherine Feuillet",
+        "Beat Keller",
+        "Jane Rogers",
+        "Nils Stein",
+        "Tatiana Belova",
+        "Odd-Arne Olsen",
+        "Simen Rød Sandve",
+        "Curtis J. Pozniak"
+      ],
+      "year": "2018",
+      "journal": "Science",
+      "volume": "361",
+      "issue": "6403",
+      "doi": "https://doi.org/10.1126/science.aar7191",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc6634e3-147eebde-54a2-4158-aa09-0941f08d8e23",
+      "title": "The Atlantic salmon genome provides\r\ninsights into rediploidization",
+      "authors": [
+        "Sigbjørn Lien",
+        "Ben F Koop",
+        "Simen Rød Sandve",
+        "Jason R. Miller",
+        "Matthew Peter Kent",
+        "Torfinn Nome",
+        "Torgeir Rhoden Hvidsten",
+        "Jong Leong",
+        "David R. Minkley",
+        "Aleksey Zimin"
+      ],
+      "year": "2016",
+      "journal": "Nature",
+      "volume": "533",
+      "issue": "7602",
+      "doi": "https://doi.org/10.1038/nature17164",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc65e126-8ed53981-941e-4093-8535-ce086bee0c16",
+      "title": "Chromosome-Level Genome Assembly of Chinese Sucker (Myxocyprinus asiaticus) Reveals Strongly Conserved Synteny Following a Catostomid-Specific Whole-Genome Duplication",
+      "authors": [
+        "Trevor Krabbenhoft",
+        "Daniel J. MacGuigan",
+        "Nathan J. C. Backenstose",
+        "Hannah Waterman",
+        "Tianying Lan",
+        "Jessie A. Pelosi",
+        "Milton Tan",
+        "Simen Rød Sandve"
+      ],
+      "year": "2021",
+      "journal": "Genome Biology and Evolution (GBE)",
+      "volume": "",
+      "issue": "",
+      "doi": "https://doi.org/10.1093/gbe/evab190",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc611eea-30f4c865-0f46-4bc1-ba38-994ca24135f5",
+      "title": "Immunologic Profiling of the Atlantic Salmon Gill by Single Nuclei Transcriptomics",
+      "authors": [
+        "Alexander Christopher West",
+        "Yasutaka Mizoro",
+        "Shona Wood",
+        "Louise M. Ince",
+        "Marianne Iversen",
+        "Even Hjalmar Jørgensen",
+        "Torfinn Nome",
+        "Simen Rød Sandve",
+        "Samuel A. M. Martin",
+        "Andrew S. I. Loudon"
+      ],
+      "year": "2021",
+      "journal": "Frontiers in Immunology",
+      "volume": "12",
+      "issue": "",
+      "doi": "https://doi.org/10.3389/fimmu.2021.669889",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc5f512e-2414544f-dab0-4c7a-a8c4-793576147f8e",
+      "title": "Analyses of Genome Regulatory Evolution Following Whole-Genome Duplication Using the Phylogenetic EVE Model",
+      "authors": [
+        "Ksenia Arzumanova",
+        "Rori V Rohlfs",
+        "Lars Grønvold",
+        "Marius Andre Strand",
+        "Torgeir Rhodén Hvidsten",
+        "Simen Rød Sandve"
+      ],
+      "year": "2023",
+      "journal": "Methods in molecular biology",
+      "volume": "2545",
+      "issue": "",
+      "doi": "https://doi.org/10.1007/978-1-0716-2561-3_11",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc5ee539-166006be-7699-4669-92d3-ba9d444ff7c5",
+      "title": "Tracking the evolution of a cold stress associated gene family in cold tolerant grasses",
+      "authors": [
+        "Simen Rød Sandve",
+        "Heidi Rudi",
+        "Torben Asp",
+        "Odd Arne Rognli"
+      ],
+      "year": "2008",
+      "journal": "BMC Evolutionary Biology",
+      "volume": "8",
+      "issue": "245;  doi:10.1186/14",
+      "doi": "",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc5c2d03-23f2a338-9fd4-4ae3-ac5d-d015334bf44f",
+      "title": "Transcriptionally distinct B cell profiles in systemic immune tissues and peritoneal cavity of Atlantic salmon (Salmo salar) infected with salmonid alphavirus subtype 3",
+      "authors": [
+        "Shiferaw Jenberie",
+        "Simen Rød Sandve",
+        "Thu-Hien To",
+        "Matthew Peter Kent",
+        "Espen Rimstad",
+        "Jorunn B Jørgensen",
+        "Ingvill Jensen"
+      ],
+      "year": "2024",
+      "journal": "Frontiers in Immunology",
+      "volume": "15",
+      "issue": "",
+      "doi": "https://doi.org/10.3389/fimmu.2024.1504836",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc5aa1cd-f3b4f75b-fd6a-40ce-9487-d1a74bd36848",
+      "title": "Transcriptomic profiling of gill biopsies to define predictive markers for seawater survival in farmed Atlantic salmon",
+      "authors": [
+        "Lars Grønvold",
+        "Mattis Jayme van Dalum",
+        "Anja Striberny",
+        "Domniki Manousi",
+        "Trine Ytrestøyl",
+        "Turid Mørkøre",
+        "Solomon Antwi  Boison",
+        "Bjarne Gjerde",
+        "Even Jørgensen",
+        "Simen Rød Sandve"
+      ],
+      "year": "2024",
+      "journal": "Journal of Fish Biology",
+      "volume": "",
+      "issue": "",
+      "doi": "https://doi.org/10.1111/jfb.16025",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc5aa0b7-2aa1e573-7427-4795-b8d2-7b46a972ed52",
+      "title": "Functional Annotation of All Salmonid Genomes (FAASG): an international initiative supporting future salmonid research, conservation and aquaculture",
+      "authors": [
+        "Daniel J. Macqueen",
+        "Craig R. Primmer",
+        "Ross D. Houston",
+        "Barbara F. Nowak",
+        "Louis Bernatchez",
+        "Steinar Bergseth",
+        "William S. Davidson",
+        "Cristian Gallardo-Escárate",
+        "Tom Goldammer",
+        "Yann Guiguen"
+      ],
+      "year": "2017",
+      "journal": "BMC Genomics",
+      "volume": "18",
+      "issue": "484",
+      "doi": "https://doi.org/10.1186/s12864-017-3862-8",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc5a2c4e-2ad38b75-5d28-455a-8021-e6f0d3e6e754",
+      "title": "Transcriptional regulation of lipid metabolism when salmon fry switches from endogenous to exogenous feeding",
+      "authors": [
+        "Yang Jin",
+        "Rolf Erik Olsen",
+        "Mari-Ann Østensen",
+        "Gareth Benjamin Gillard",
+        "Keshuai Li",
+        "Thomas Nelson Harvey",
+        "Nina Santi",
+        "Olav Vadstein",
+        "Jon Olav Vik",
+        "Simen Rød Sandve"
+      ],
+      "year": "2018",
+      "journal": "Aquaculture",
+      "volume": "503",
+      "issue": "",
+      "doi": "https://doi.org/10.1016/j.aquaculture.2018.12.089",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc57b2f1-75a66233-9814-4451-8563-2e2ee72cb89c",
+      "title": "Molecular mechanisms underlying frost tolerance in perennial grasses adapted to cold climates",
+      "authors": [
+        "Simen Rød Sandve",
+        "Arkadiuz Kosmala",
+        "Heidi Rudi",
+        "Siri Fjellheim",
+        "Marcin Rapacz",
+        "Toshihiko Yamada",
+        "Odd Arne Rognli"
+      ],
+      "year": "2011",
+      "journal": "Plant Science",
+      "volume": "180",
+      "issue": "1",
+      "doi": "https://doi.org/10.1016/j.plantsci.2010.07.011",
+      "type": "AcademicLiteratureReview"
+    },
+    {
+      "identifier": "0198cc55f256-267ac67e-2d04-478b-9ca8-f4c6ce7e765d",
+      "title": "High-throughput genotyping of unknown genomic terrain in complex plant genomes: lessons from a case study",
+      "authors": [
+        "Simen Rød Sandve",
+        "Heidi Rudi",
+        "Guro Dørum",
+        "Paul Ragnar Berg",
+        "Odd Arne Rognli"
+      ],
+      "year": "2010",
+      "journal": "Molecular breeding",
+      "volume": "26",
+      "issue": "4",
+      "doi": "https://doi.org/10.1007/s11032-010-9479-0",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc5524bf-fc40e61d-8de1-452b-bc6b-ed7d75661de7",
+      "title": "Molecular Regulation of Biosynthesis of Long Chain Polyunsaturated Fatty Acids in Atlantic Salmon",
+      "authors": [
+        "Alex Kojo Datsomor",
+        "Gareth Benjamin Gillard",
+        "Yang Jin",
+        "Rolf Erik Olsen",
+        "Simen Rød Sandve"
+      ],
+      "year": "2022",
+      "journal": "Marine Biotechnology",
+      "volume": "24",
+      "issue": "4",
+      "doi": "https://doi.org/10.1007/s10126-022-10144-w",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc539dd0-23c4578d-4d15-47aa-9533-8069e5bb0ff0",
+      "title": "Publisher Correction: Sex-dependent dominance maintains migration supergene in rainbow trout (Nature Ecology & Evolution, (2019), 3, 12, (1731-1742), 10.1038/s41559-019-1044-6)",
+      "authors": [
+        "Devon E. Pearse",
+        "Nicola Barson",
+        "Torfinn Nome",
+        "Guangtu Gao",
+        "Matthew A. Campbell",
+        "Alicia Abadía-Cardoso",
+        "Eric C. Anderson",
+        "David E. Rundio",
+        "Thomas H. Williams",
+        "Kerry A. Naish"
+      ],
+      "year": "2020",
+      "journal": "Nature Ecology and Evolution",
+      "volume": "4",
+      "issue": "1",
+      "doi": "https://doi.org/10.1038/s41559-019-1076-y",
+      "type": "JournalCorrigendum"
+    },
+    {
+      "identifier": "0198cc533df7-4392feee-04a9-4cd2-9bd2-552bd72b2473",
+      "title": "The role of transposon activity in shaping cis-regulatory element evolution after whole-genome duplication",
+      "authors": [
+        "Øystein Monsen",
+        "Lars Grønvold",
+        "Alex Kojo Datsomor",
+        "Thomas Nelson Harvey",
+        "James Kijas",
+        "Alexander Suh",
+        "Torgeir Rhoden Hvidsten",
+        "Simen Rød Sandve"
+      ],
+      "year": "2025",
+      "journal": "Genome Research",
+      "volume": "35",
+      "issue": "3",
+      "doi": "https://doi.org/10.1101/gr.278931.124",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc4b2773-2164c7fc-f4ba-4e80-b7aa-e236be3f0fdf",
+      "title": "Liver slice culture as a model for lipid metabolism in fish",
+      "authors": [
+        "Thomas Nelson Harvey",
+        "Simen Rød Sandve",
+        "Yang Jin",
+        "Jon Olav Vik",
+        "Jacob Seilø Torgersen"
+      ],
+      "year": "2019",
+      "journal": "PeerJ",
+      "volume": "7",
+      "issue": "",
+      "doi": "https://doi.org/10.7717/peerj.7732",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc4a009c-7feab8e1-f89e-450d-af80-bcb2aad118c9",
+      "title": "A stable core gut microbiota across fresh- to saltwater transition for farmed Atlantic salmon",
+      "authors": [
+        "Knut Rudi",
+        "Inga Leena Angell",
+        "Phillip Pope",
+        "Jon Olav Vik",
+        "Simen Rød Sandve",
+        "Lars-Gustav Snipen"
+      ],
+      "year": "2017",
+      "journal": "Applied and Environmental Microbiology",
+      "volume": "84",
+      "issue": "2",
+      "doi": "https://doi.org/10.1128/AEM.01974-17",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc482b2d-551f2925-4f54-4af0-b126-1b0412883bcc",
+      "title": "Association of gut microbiota with metabolism in juvenile Atlantic salmon",
+      "authors": [
+        "Hanne Dvergedal",
+        "Simen Rød Sandve",
+        "I.L. Angell",
+        "Gunnar Klemetsdal",
+        "Knut Rudi"
+      ],
+      "year": "2020",
+      "journal": "Microbiome",
+      "volume": "8",
+      "issue": "1",
+      "doi": "https://doi.org/10.1186/s40168-020-00938-2",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc482397-6c71f1bd-4ab0-4505-a797-883e00293b3c",
+      "title": "Genomic regions and signaling pathways associated with indicator traits for feed efficiency in Atlantic salmon (Salmo salar)",
+      "authors": [
+        "Hanne Dvergedal",
+        "Thomas Nelson Harvey",
+        "Yang Jin",
+        "Jørgen Ødegård",
+        "Lars Grønvold",
+        "Simen Rød Sandve",
+        "Dag Inge Våge",
+        "Thomas Moen",
+        "Gunnar Klemetsdal"
+      ],
+      "year": "2020",
+      "journal": "Genetics Selection Evolution",
+      "volume": "52",
+      "issue": "",
+      "doi": "https://doi.org/10.1186/s12711-020-00587-x",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc47854c-867cd500-707a-4668-b44a-824207e5d42b",
+      "title": "SALARECON connects the Atlantic salmon genome to growth and feed efficiency",
+      "authors": [
+        "Maksim Zakhartsev",
+        "Filip Rotnes",
+        "Marie Gulla",
+        "Ove Øyås",
+        "Jesse C.J. van Dam",
+        "Maria Suarez-Diez",
+        "Fabian Grammes",
+        "Róbert Anton Hafþórsson",
+        "Wout Van Helvoirt",
+        "Jasper J. Koehorst"
+      ],
+      "year": "2022",
+      "journal": "PLoS Computational Biology",
+      "volume": "18",
+      "issue": "6",
+      "doi": "https://doi.org/10.1371/journal.pcbi.1010194",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc4744ed-e19fbd08-7981-4fe7-8d11-ae351c607bdf",
+      "title": "Atlantic salmon raised with diets low in long-chain\r\npolyunsaturated n-3 fatty acids in freshwater have a\r\nMycoplasma-dominated gut microbiota at sea",
+      "authors": [
+        "Yang Jin",
+        "Inga Leena Angell",
+        "Simen Rød Sandve",
+        "Lars-Gustav Snipen",
+        "Yngvar Olsen",
+        "Knut Rudi"
+      ],
+      "year": "2019",
+      "journal": "Aquaculture Environment Interactions",
+      "volume": "11",
+      "issue": "",
+      "doi": "https://doi.org/10.3354/aei00297",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc44f5ea-d1fd768b-2a6c-43fa-a0df-998edeaeda7b",
+      "title": "The Farmed Atlantic Salmon (Salmo salar) Skin–Mucus Proteome and Its Nutrient Potential for the Resident Bacterial Community",
+      "authors": [
+        "Giusi Minniti",
+        "Simen Rød Sandve",
+        "Janos Tamas Padra",
+        "Live Heldal Hagen.",
+        "Sara Linden",
+        "Phillip Pope",
+        "Magnus Øverlie Arntzen",
+        "Gustav Vaaje-Kolstad"
+      ],
+      "year": "2019",
+      "journal": "Genes",
+      "volume": "10",
+      "issue": "7",
+      "doi": "https://doi.org/10.3390/genes10070515",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc44e568-7d0ffa50-d0d6-47c8-8309-4b7f8270c756",
+      "title": "Utilization of deletion bins to anchor and order sequences along the wheat 7B chromosome",
+      "authors": [
+        "Tatiana Belova",
+        "Lars Grønvold",
+        "Ajay Kumar",
+        "Shahryar Kianian",
+        "X. He",
+        "Morten Lillemo",
+        "N. Springer",
+        "Sigbjørn Lien",
+        "Odd-Arne Olsen",
+        "Simen Rød Sandve"
+      ],
+      "year": "2014",
+      "journal": "Theoretical and Applied Genetics",
+      "volume": "127",
+      "issue": "",
+      "doi": "https://doi.org/10.1007/s00122-014-2358-z",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc44690d-68d59e88-e87a-42db-8da5-7382daae06c2",
+      "title": "Comparative transcriptomics reveals domestication‐associated features of Atlantic salmon lipid metabolism",
+      "authors": [
+        "Yang Jin",
+        "Rolf Erik Olsen",
+        "Thomas Nelson Harvey",
+        "Mari-Ann Østensen",
+        "Keshuai Li",
+        "Nina Santi",
+        "Olav Vadstein",
+        "Atle M. Bones",
+        "Jon Olav Vik",
+        "Simen Rød Sandve"
+      ],
+      "year": "2020",
+      "journal": "Molecular Ecology",
+      "volume": "29",
+      "issue": "10",
+      "doi": "https://doi.org/10.1111/mec.15446",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc40a0d0-c3708830-df7b-448e-8cf7-a28239020427",
+      "title": "Linking genomic prediction of fillet fat content in Atlantic salmon to underlying changes in lipid metabolism regulation",
+      "authors": [
+        "Thomas Nelson Harvey",
+        "Hanne Dvergedal",
+        "Lars Grønvold",
+        "Yang Jin",
+        "Jørgen Ødegård",
+        "Sven Arild Korsvoll",
+        "Tim Martin Knutsen",
+        "Torgeir Rhoden Hvidsten",
+        "Simen Rød Sandve"
+      ],
+      "year": "2024",
+      "journal": "Aquaculture",
+      "volume": "584",
+      "issue": "",
+      "doi": "https://doi.org/10.1016/j.aquaculture.2024.740678",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc403345-d77860e2-d114-49f2-814f-57c3d92bbdc8",
+      "title": "Life-stage associated remodeling of lipid metabolism regulation in Atlantic salmon",
+      "authors": [
+        "Gareth Benjamin Gillard",
+        "Thomas Nelson Harvey",
+        "Arne Bjørke Gjuvsland",
+        "Yang Jin",
+        "Magny Sissel S. Thomassen",
+        "Sigbjørn Lien",
+        "Michael Leaver",
+        "Jacob Seilø Torgersen",
+        "Torgeir Rhoden Hvidsten",
+        "Jon Olav Vik"
+      ],
+      "year": "2018",
+      "journal": "Molecular Ecology",
+      "volume": "27",
+      "issue": "5",
+      "doi": "https://doi.org/10.1111/mec.14533",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc3eb9b5-42a1f5a8-e0f9-4add-bd4a-f74d19ab2551",
+      "title": "Sex-dependent dominance maintains migration supergene in rainbow trout",
+      "authors": [
+        "Devon E. Pearse",
+        "Nicola Barson",
+        "Torfinn Nome",
+        "Guangtu Gao",
+        "Matthew Campbell",
+        "Alicia Abadía-Cardoso",
+        "Eric C. Anderson",
+        "David Rundio",
+        "Thomas H. Williams",
+        "Kerry A. Naish"
+      ],
+      "year": "2019",
+      "journal": "Nature Ecology and Evolution",
+      "volume": "3",
+      "issue": "12",
+      "doi": "https://doi.org/10.1038/s41559-019-1044-6",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc3ea38f-d0471acc-3215-4751-b2dc-7256b3fbb298",
+      "title": "Genomic and functional characterization of the Atlantic salmon gut microbiome in relation to nutrition and health",
+      "authors": [
+        "Arturo Vera_Ponce_De_Leon",
+        "Tim Hensen",
+        "Matthias Hötzinger",
+        "Shashank Gupta",
+        "Bronson Weston",
+        "Sander Johan Mangseth Johnsen",
+        "Jacob A. Rasmussen",
+        "Cecilie Grønlund Clausen",
+        "Louisa Pless",
+        "Ana Raquel Andrade Veríssimo"
+      ],
+      "year": "2024",
+      "journal": "Nature Microbiology",
+      "volume": "9",
+      "issue": "",
+      "doi": "https://doi.org/10.1038/s41564-024-01830-7",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc3e4c9b-469291ef-5b64-4741-87ab-3d4ea8a21b29",
+      "title": "Did gene family expansions during the Eocene-Oligocene boundary climate cooling play a role in Pooideae adaptation to cool climates?",
+      "authors": [
+        "Simen Rød Sandve",
+        "Siri Fjellheim"
+      ],
+      "year": "2010",
+      "journal": "Molecular Ecology",
+      "volume": "19",
+      "issue": "10",
+      "doi": "https://doi.org/10.1111/j.1365-294X.2010.04629.x",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc3d7560-80e2ae1a-a5a1-4f6b-b117-a60956a73bd0",
+      "title": "A chromosome-based draft sequence of the hexaploid bread wheat (Triticum aestivum) genome",
+      "authors": [
+        "Klaus F.X. Mayer",
+        "Adam J. Lukaszewski",
+        "Adriana Alberti",
+        "Andrew Sharpe",
+        "Andrzej Kilian",
+        "Antonio Michele Stanca",
+        "Beat Keller",
+        "Bernardo J. Clavijo",
+        "Bernd Friebe",
+        "Bikram Gill"
+      ],
+      "year": "2014",
+      "journal": "Science",
+      "volume": "345",
+      "issue": "6194",
+      "doi": "https://doi.org/10.1126/science.1251788",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "0198cc3cfb40-abcdabb3-8dc4-4df8-bfb5-18dff60b960b",
+      "title": "DArTFest DNA Array - Applications and Perspectives for Grass Genetics, Genomics and Breeding",
+      "authors": [
+        "D Kopecký",
+        "J Bartos",
+        "A.J. Lukaszewski",
+        "JH Baird",
+        "Simen Rød Sandve",
+        "Odd Arne Rognli",
+        "Roland Kölliker",
+        "SL Byrne",
+        "C Tomaszewski",
+        "Susanne Barth"
+      ],
+      "year": "2013",
+      "journal": "",
+      "volume": "",
+      "issue": "",
+      "doi": "https://doi.org/10.1007/978-94-007-4555-1_14",
+      "type": "AcademicChapter"
+    }
+  ]
+}

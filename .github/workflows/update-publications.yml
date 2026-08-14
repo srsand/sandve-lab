@@ -1,0 +1,100 @@
+name: Update Publications
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'   # Every Monday at 06:00 UTC
+  workflow_dispatch:        # Allow manual trigger from GitHub Actions tab
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Fetch publications from NVA
+        run: |
+          python - <<'EOF'
+          import json, sys, time
+          import requests
+
+          PERSON_ID = 'https://api.nva.unit.no/cristin/person/317809'
+          # Ask NVA itself for Level 1/2 results, rather than re-deriving the level
+          # client-side: book chapters carry their level on the parent anthology's
+          # publisher, not on the chapter's own record, so NVA's own filter is the
+          # only reliable way to match what nva.sikt.no shows for this profile.
+          LEVELS = 'LevelOne,LevelTwo'
+          PAGE_SIZE = 100
+          OUT = '_data/publications.json'
+          HEADERS = {'User-Agent': 'sandve-lab-website (contact: ssandve@gmail.com)'}
+
+          def fetch_page(frm):
+              url = 'https://api.nva.unit.no/search/resources'
+              params = {'contributor': PERSON_ID, 'scientificValue': LEVELS, 'size': PAGE_SIZE, 'from': frm}
+              r = requests.get(url, params=params, headers=HEADERS, timeout=30)
+              r.raise_for_status()
+              return r.json()
+
+          def extract(hit):
+              desc     = hit.get('entityDescription') or {}
+              ref      = desc.get('reference') or {}
+              instance = ref.get('publicationInstance') or {}
+              context  = ref.get('publicationContext') or {}
+              authors  = [c.get('identity', {}).get('name', '')
+                          for c in (desc.get('contributorsPreview') or [])]
+              authors  = [a for a in authors if a]
+              return {
+                  'identifier': hit.get('identifier'),
+                  'title':   desc.get('mainTitle', 'No title'),
+                  'authors': authors,
+                  'year':    (desc.get('publicationDate') or {}).get('year', 'Unknown'),
+                  'journal': context.get('name', ''),
+                  'volume':  instance.get('volume', ''),
+                  'issue':   instance.get('issue', ''),
+                  'doi':     ref.get('doi', ''),
+                  'type':    instance.get('type', ''),
+              }
+
+          try:
+              items, frm = [], 0
+              while True:
+                  batch = fetch_page(frm)
+                  hits  = batch.get('hits', [])
+                  items.extend(hits)
+                  frm += PAGE_SIZE
+                  if frm >= batch.get('totalHits', 0) or len(hits) < PAGE_SIZE:
+                      break
+                  time.sleep(0.3)
+
+              pubs = [extract(h) for h in items]
+              out = {
+                  'last_updated': time.strftime('%Y-%m-%d', time.gmtime()),
+                  'count': len(pubs),
+                  'items': pubs,
+              }
+              with open(OUT, 'w') as f:
+                  json.dump(out, f, indent=2, ensure_ascii=False)
+                  f.write('\n')
+              print(f"Wrote {len(pubs)} publications")
+          except Exception as e:
+              print(f"Error fetching NVA publications: {e}", file=sys.stderr)
+              sys.exit(1)
+          EOF
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/publications.json
+          git diff --staged --quiet || git commit -m "Auto-update publications from NVA"
+          git push
