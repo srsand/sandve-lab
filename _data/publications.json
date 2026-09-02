@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-08-31",
-  "count": 82,
+  "last_updated": "2026-09-02",
+  "count": 83,
   "items": [
+    {
+      "identifier": "019f4b435518-dc56c9ba-37fd-4a2e-80fb-0e3ea6afcc08",
+      "title": "Centromeric satellite expansion drives genome evolution in the snowy owl | Genome Biology | Springer Nature Link",
+      "authors": [
+        "Helle Tessand Baalsrud",
+        "Benedicte Garmann-Aarhus",
+        "Enevoldsen, Emily Louise Gilbert",
+        "Anders Kristian Krabberød",
+        "Fischer, Dominik",
+        "Ave Tooming-Klunderud",
+        "Morten Skage",
+        "Árnyasi, Mariann",
+        "Simen Rød Sandve",
+        "Kjetill Sigurd Jakobsen"
+      ],
+      "year": "2026",
+      "journal": "Genome Biology",
+      "volume": "",
+      "issue": "",
+      "doi": "https://doi.org/10.1186/s13059-026-04175-y",
+      "type": "AcademicArticle"
+    },
     {
       "identifier": "019db505a3ba-4ae2899f-a701-441b-9918-9c5c1e665008",
       "title": "OmniCorr: an R-package for visualizing putative host-microbiome interactions using multi-omics data",
