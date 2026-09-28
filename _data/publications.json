@@ -1,7 +1,45 @@
 {
-  "last_updated": "2026-09-21",
-  "count": 83,
+  "last_updated": "2026-09-28",
+  "count": 85,
   "items": [
+    {
+      "identifier": "01a0e826d74d-b1813474-9c9b-4c95-980d-b1937900f149",
+      "title": "The origin of the octoploid cloudberry (Rubus chamaemorus) genome is the result of multiple and complex polyploidization events",
+      "authors": [
+        "Marius André Strand",
+        "Thu-Hien To",
+        "Ole Kristian Tørresen",
+        "Sarah Fullmer",
+        "Giada Ferrari",
+        "Morten Skage",
+        "Ave Tooming-Klunderud",
+        "Simen Rød Sandve",
+        "Kjetill Sigurd Jakobsen"
+      ],
+      "year": "2026",
+      "journal": "Journal of Heredity",
+      "volume": "117",
+      "issue": "4",
+      "doi": "https://doi.org/10.1093/jhered/esag028",
+      "type": "AcademicArticle"
+    },
+    {
+      "identifier": "019f4b48e921-2589ab10-71b2-4fcc-ac49-7554e9bbd493",
+      "title": "Population Genetic Study of vitellogenin in Honey Bees (Apis mellifera) With European Ancestry Identifies Two Ancestral Genetic Backgrounds",
+      "authors": [
+        "Vilde Leipart",
+        "Reed A. Cartwright",
+        "Adam Eyre-Walker",
+        "Simen Rød Sandve",
+        "Gro Vang Amdam"
+      ],
+      "year": "2026",
+      "journal": "Ecology and Evolution",
+      "volume": "16",
+      "issue": "6",
+      "doi": "https://doi.org/10.1002/ece3.73845",
+      "type": "AcademicArticle"
+    },
     {
       "identifier": "019f4b435518-dc56c9ba-37fd-4a2e-80fb-0e3ea6afcc08",
       "title": "Centromeric satellite expansion drives genome evolution in the snowy owl",
