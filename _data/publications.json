@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-10-12",
-  "count": 85,
+  "last_updated": "2026-10-19",
+  "count": 86,
   "items": [
+    {
+      "identifier": "01a15329e93c-1d1c0154-bc9d-44fe-b0dc-dc529d146a09",
+      "title": "Developmental contexts of gene-regulatory evolution following whole genome duplication in salmonids",
+      "authors": [
+        "Marie-Odile Baudement",
+        "Diego Perojil Morata",
+        "Gareth Benjamin Gillard",
+        "Pooran S. Dewari",
+        "Manu Kumar Gundappa",
+        "Tomasz Podgorniak",
+        "Lars Grønvold",
+        "Damir Baranasic",
+        "Audrey Laurent",
+        "François Giudicelli"
+      ],
+      "year": "2026",
+      "journal": "Nature Ecology and Evolution",
+      "volume": "10",
+      "issue": "10",
+      "doi": "https://doi.org/10.1038/s41559-026-03171-6",
+      "type": "AcademicArticle"
+    },
     {
       "identifier": "01a0e826d74d-b1813474-9c9b-4c95-980d-b1937900f149",
       "title": "The origin of the octoploid cloudberry (Rubus chamaemorus) genome is the result of multiple and complex polyploidization events",
