@@ -25,6 +25,28 @@
     .member-card .member-name { font-size: 13px; font-weight: bold; color: #333; line-height: 1.3; }
     .member-card .member-role { font-size: 12px; color: #777; margin-top: 2px; }
 
+    .pi-section {
+      display: flex; gap: 28px; align-items: flex-start;
+      margin-bottom: 36px;
+    }
+    .pi-photo { flex: 0 0 170px; text-align: center; }
+    .pi-photo img {
+      width: 150px; height: 150px;
+      object-fit: cover; object-position: top center;
+      border-radius: 50%;
+      display: block; margin: 0 auto 10px;
+      background: #e7f5fd;
+    }
+    .pi-photo .member-name { font-size: 15px; font-weight: bold; color: #333; line-height: 1.3; }
+    .pi-photo .member-role { font-size: 13px; color: #777; margin-top: 2px; }
+    .pi-bio p { font-size: 14px; line-height: 1.7; color: #555; margin-bottom: 12px; }
+    .pi-bio p:last-child { margin-bottom: 0; }
+    .pi-section + .section-heading { margin-top: 8px; }
+    @media (max-width: 650px) {
+      .pi-section { flex-direction: column; align-items: center; gap: 16px; }
+      .pi-photo { flex-basis: auto; }
+    }
+
     .prev-year { font-size: 15px; font-weight: bold; color: #4d8eb7; margin: 20px 0 8px; }
     .prev-list { list-style: none; }
     .prev-list li {
@@ -71,6 +93,20 @@
 </header>
 
 <main>
+  <h2 class="section-heading">Principal Investigator</h2>
+  <div class="pi-section">
+    <div class="pi-photo">
+      <img src="images/people/simen.jpg" alt="Simen Rød Sandve">
+      <div class="member-name">Simen Rød Sandve</div>
+      <div class="member-role">Professor</div>
+    </div>
+    <div class="pi-bio">
+      <p>I study how genomes evolve, and how genetic variation gives rise to variation in gene regulation and organismal traits. Two central themes in my research are the consequences of whole-genome duplication and the genetic mechanisms that shape salmon biology.</p>
+      <p>My group combines comparative and functional genomics, using approaches such as transcriptomics (including snRNA-seq and long-read RNA-seq), Hi-C, eQTL mapping and analyses of enhancer–promoter interactions. I have contributed to several large international genome projects, including the sequencing of bread wheat and Atlantic salmon, and the Earth BioGenome Project.</p>
+      <p>Since 2026 I have served as Vice Dean for Research at the Faculty of Biosciences (BIOVIT) and chair of the faculty research committee. I also teach genetics.</p>
+    </div>
+  </div>
+
   <h2 class="section-heading">Group Members</h2>
   <div class="members-grid" id="current-grid">
     <div class="loading">Loading…</div>
@@ -93,12 +129,15 @@
 
 <script>
 // ── Current members ──
+// The PI has their own section above, so leave them out of the grid.
+const PI_NAME = 'Simen Rød Sandve';
+
 fetch('_data/people-current.json')
   .then(r => r.json())
   .then(data => {
     const grid = document.getElementById('current-grid');
     grid.innerHTML = '';
-    data.members.forEach(m => {
+    data.members.filter(m => m.name !== PI_NAME).forEach(m => {
       const card = document.createElement('div');
       card.className = 'member-card';
       const nameHtml = m.url
